@@ -1,0 +1,479 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "2100134",
+            "rf": "A2",
+            "ds": "Llamadas A2"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100193",
+            "rf": "A2_ONE",
+            "ds": "Llamadas A2 ONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100135",
+            "rf": "CONTES",
+            "ds": "Llamadas Contestador"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100136",
+            "rf": "DATOS",
+            "ds": "Llamadas de datos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100137",
+            "rf": "DESC_MOBIPAY",
+            "ds": "Llamadas Descargas Mobipay"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100138",
+            "rf": "DESC_STREAMING",
+            "ds": "Llamadas descargas Streaming"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100139",
+            "rf": "DESC_WAP_PREMIUM",
+            "ds": "Llamadas Descargas Wap Premium"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100140",
+            "rf": "ENTR_OTR",
+            "ds": "Llamadas Entrantes Otras Redes"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100141",
+            "rf": "ENTR_VF",
+            "ds": "Llamadas Entrantes Vodafone"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100143",
+            "rf": "GPRS_INTERNET",
+            "ds": "Llamadas GPRS Internet"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100144",
+            "rf": "GPRS_RESTO",
+            "ds": "Llamadas GPRS Resto"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100145",
+            "rf": "GPRS_ROA_OUT",
+            "ds": "Llamadas GPRS ROAMING OUT"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100146",
+            "rf": "GRAT",
+            "ds": "Llamadas GRATUITAS"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100147",
+            "rf": "GRPS_WAP",
+            "ds": "Llamadas GPRS WAP ON NET"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100148",
+            "rf": "GRPS_WAP_OffNet",
+            "ds": "Llamadas GPRS WAP OFF NET"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100142",
+            "rf": "G_QTAL",
+            "ds": "Llamadas Grupo QTAL"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100194",
+            "rf": "G_QTAL_ONE",
+            "ds": "Llamadas Grupo QTAL ONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100149",
+            "rf": "INTER",
+            "ds": "Llamadas Internacionales"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100152",
+            "rf": "INTERNET_3G",
+            "ds": "Llamadas INTERNET 3G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100150",
+            "rf": "INTER_NPK",
+            "ds": "Llamadas Internacionales NO PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100151",
+            "rf": "INTER_PK",
+            "ds": "Llamadas Internacionales  PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100166",
+            "rf": "MIPAIS",
+            "ds": "Llamadas Mi Pais"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100167",
+            "rf": "MMS",
+            "ds": "Llamadas MMS VODAFONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100168",
+            "rf": "MMS_ENTR_OTR",
+            "ds": "Llamadas MMS ENTRANTES OTROS OPERADORES"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100169",
+            "rf": "MMS_OtrosOperadores",
+            "ds": "Llamadas MMS OTROS OPERADORES"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100170",
+            "rf": "MMS_Resto",
+            "ds": "Llamadas MMS RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100153",
+            "rf": "M_F_NP",
+            "ds": "Llamadas Movil/Fijo No Provincial"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100154",
+            "rf": "M_F_NP_NPK",
+            "ds": "Llamadas Movil/Fijo No Provincial NO PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100195",
+            "rf": "M_F_NP_ONE",
+            "ds": "Llamadas movil fijo NO PROVINCIAL ONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100155",
+            "rf": "M_F_NP_PK",
+            "ds": "Llamadas Movil/Fijo No Provincial PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100156",
+            "rf": "M_F_P",
+            "ds": "Llamadas Movil/Fijo Provincial"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100157",
+            "rf": "M_F_P_NPK",
+            "ds": "Llamadas Movil/Fijo Provincial NO PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100196",
+            "rf": "M_F_P_ONE",
+            "ds": "Llamadas movil fijo PROVINCIAL ONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100158",
+            "rf": "M_F_P_PK",
+            "ds": "Llamadas Movil/Fijo Provincial PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100159",
+            "rf": "M_M",
+            "ds": "Llamadas Movil Movil"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100160",
+            "rf": "M_M_NPK",
+            "ds": "Llamadas Movil Movil NO PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100197",
+            "rf": "M_M_ONE",
+            "ds": "Llamadas movil movil VODAFONE ONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100161",
+            "rf": "M_M_PK",
+            "ds": "Llamadas Movil Movil PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100162",
+            "rf": "M_O_M",
+            "ds": "Llamadas Movil Movil No VODAFONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100163",
+            "rf": "M_O_M_NPK",
+            "ds": "Llamadas Movil Movil No VODAFONE NO PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100164",
+            "rf": "M_O_M_PK",
+            "ds": "Llamadas Movil Movil No VODAFONE PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100165",
+            "rf": "M_QTAL",
+            "ds": "Llamadas Miembro QTAL"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100198",
+            "rf": "M_QTAL_ONE",
+            "ds": "Llamadas miembro QTAL ONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100171",
+            "rf": "PREMIUM_3G",
+            "ds": "Llamadas PREMIUM 3G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "0",
+            "rf": "RESTO",
+            "ds": "Llamadas RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100172",
+            "rf": "ROA_REALIZ",
+            "ds": "Llamadas Roaming Realizado"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100173",
+            "rf": "ROA_REALIZ_NPK",
+            "ds": "Llamadas Roaming Realizado NO PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100174",
+            "rf": "ROA_REALIZ_PK",
+            "ds": "Llamadas Roaming Realizado PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100175",
+            "rf": "ROA_RECIB",
+            "ds": "Llamadas Roaming Recibido"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100176",
+            "rf": "ROA_RECIB_NPK",
+            "ds": "Llamadas Roaming Recibido NO PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100177",
+            "rf": "ROA_RECIB_PK",
+            "ds": "Llamadas Roaming Recibido PEAK"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100178",
+            "rf": "SMS_A2",
+            "ds": "Llamadas SMS A2"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100179",
+            "rf": "SMS_ENTR_OTR",
+            "ds": "Llamadas SMS otros operadores"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100180",
+            "rf": "SMS_FIJO",
+            "ds": "Llamadas SMS Fijo"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100181",
+            "rf": "SMS_G_QTAL",
+            "ds": "Llamadas SMS grupo QTAL"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100182",
+            "rf": "SMS_INTER_MI_PAIS",
+            "ds": "Llamadas SMS Internacional Mi Pais"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100183",
+            "rf": "SMS_INTER_NO_MI_PAIS",
+            "ds": "Llamadas SMS Internacional NO Mi Pais"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100184",
+            "rf": "SMS_M_QTAL",
+            "ds": "Llamadas SMS miembro QTAL"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100185",
+            "rf": "SMS_O_M",
+            "ds": "Llamadas SMS moviles no VODAFONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100186",
+            "rf": "SMS_RESTO",
+            "ds": "Llamadas SMS RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100187",
+            "rf": "SMS_ROAM",
+            "ds": "Llamadas SMS ROAMING"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100188",
+            "rf": "SMS_VF",
+            "ds": "Llamadas SMS VODAFONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100189",
+            "rf": "VIDEO_TELEFONIA_3G",
+            "ds": "Llamadas VIDEO TELEFONIA 3G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100190",
+            "rf": "WAP",
+            "ds": "Llamadas WAP"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100191",
+            "rf": "WAP_3G",
+            "ds": "Llamadas WAP 3G On Net"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2100192",
+            "rf": "WAP_3G_OffNet",
+            "ds": "Llamadas WAP 3G Off Net"
+          }
+        }
+      ]
+    }
+  }
+}
