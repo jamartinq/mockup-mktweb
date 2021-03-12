@@ -1,0 +1,38 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "4400001",
+            "rf": "FACTURAS",
+            "a": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "4400002",
+            "rf": "LLAMADAS",
+            "a": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "4400003",
+            "rf": "MINUTOS",
+            "a": ""
+          }
+        }
+      ]
+    }
+  }
+}

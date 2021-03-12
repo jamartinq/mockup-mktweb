@@ -1,0 +1,1987 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "8500009",
+            "tp": "CUOTAS",
+            "rf": "001",
+            "ds": "001",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9600017",
+            "tp": "CUOTAS",
+            "rf": "023",
+            "ds": "Recuperación de anticipo de Saldo",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9900012",
+            "tp": "CUOTAS",
+            "rf": "032",
+            "ds": "Traspaso Saldo",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13300001",
+            "tp": "USO",
+            "rf": "1",
+            "ds": "Pago por acceso",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13900002",
+            "tp": "USO",
+            "rf": "10005",
+            "ds": "Pago por acceso",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12200001",
+            "tp": "USO",
+            "rf": "10006",
+            "ds": "Suscripcion mensual",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14400003",
+            "tp": "USO",
+            "rf": "10015",
+            "ds": "Suscripcion diaria",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11500002",
+            "tp": "USO",
+            "rf": "10017",
+            "ds": "Suscripcion semanal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10000013",
+            "tp": "USO",
+            "rf": "14037",
+            "ds": "SVA SMS Premium Descargas",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7100013",
+            "tp": "USO",
+            "rf": "14214",
+            "ds": "Tipo de uso SVA SMS Premium",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11600002",
+            "tp": "USO",
+            "rf": "14220",
+            "ds": "Normal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11600001",
+            "tp": "USO",
+            "rf": "14220",
+            "ds": "Tipo de uso SVA-Alta Qtal a2",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900019",
+            "tp": "USO",
+            "rf": "14222",
+            "ds": "Alarmas SVA SMS, Subscripcion por Cuota Marca Blanca",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7300011",
+            "tp": "USO",
+            "rf": "14224",
+            "ds": "Tipo de uso SVA SMS Parte Basica",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10900013",
+            "tp": "USO",
+            "rf": "14265",
+            "ds": "Tipo de uso SVA-GPRS para MMS",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7500011",
+            "tp": "USO",
+            "rf": "14266",
+            "ds": "Tipo de uso SVA-GPRS para MMS destino VF",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900022",
+            "tp": "USO",
+            "rf": "14280",
+            "ds": "Tipo de uso SVA-GPRS para MMS Premium de Contenido",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7600013",
+            "tp": "USO",
+            "rf": "14285",
+            "ds": "Tipo de uso SVA GPRS Streaming",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10600006",
+            "tp": "USO",
+            "rf": "14287",
+            "ds": "Tipo de uso SVA GPRS Streaming",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8700010",
+            "tp": "USO",
+            "rf": "14290",
+            "ds": "Tipo de uso SVA GPRS DRM",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10400006",
+            "tp": "USO",
+            "rf": "14293",
+            "ds": "Tipo uso SVA-GPRS IPCM Chat WAP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10200008",
+            "tp": "USO",
+            "rf": "14297",
+            "ds": "Alarmas SVA MMS, Subscripcion por Cuota Marca Blanca",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7400012",
+            "tp": "USO",
+            "rf": "14301",
+            "ds": "Streaming diferido gratuito",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6600006",
+            "tp": "USO",
+            "rf": "14302",
+            "ds": "Streaming live gratuito",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8600018",
+            "tp": "USO",
+            "rf": "14304",
+            "ds": "Tipo de uso SVA  MMS Premium",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8100009",
+            "tp": "USO",
+            "rf": "16289",
+            "ds": "GSM VT Family For Free",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9400017",
+            "tp": "USO",
+            "rf": "16308",
+            "ds": "GSM-Llamada internacional Mi País",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13100001",
+            "tp": "USO",
+            "rf": "16311",
+            "ds": "GSM - Desvío Nacional no Airtel",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12600001",
+            "tp": "USO",
+            "rf": "16322",
+            "ds": "R-out MTC: Llamadas Recibidas.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11100001",
+            "tp": "USO",
+            "rf": "16323",
+            "ds": "R-out MOC: Llamada Móvil Vf.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14300002",
+            "tp": "USO",
+            "rf": "16324",
+            "ds": "R-out MOC: Llamada Móvil No Vf.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11000003",
+            "tp": "USO",
+            "rf": "16325",
+            "ds": "R-out MOC: Llamada Fijo Nacional.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11100002",
+            "tp": "USO",
+            "rf": "16328",
+            "ds": "R-out MOC: Llamada País Visitado.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13000001",
+            "tp": "USO",
+            "rf": "16329",
+            "ds": "R-out MOC: Llamada Internacional.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12700002",
+            "tp": "USO",
+            "rf": "16330",
+            "ds": "GSM - Desvío móvil Airtel",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12900001",
+            "tp": "USO",
+            "rf": "16331",
+            "ds": "GSM - Desvío móvil no Airtel",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9200005",
+            "tp": "USO",
+            "rf": "16336",
+            "ds": "VT GSM - Llamada móvil VF",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7200015",
+            "tp": "USO",
+            "rf": "16337",
+            "ds": "VT GSM - Llamada móvil no VF",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9100013",
+            "tp": "USO",
+            "rf": "16340",
+            "ds": "GSM - Llamada especial",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8400012",
+            "tp": "USO",
+            "rf": "16342",
+            "ds": "GSM - Llamada de tarificación compartida",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11000002",
+            "tp": "USO",
+            "rf": "16343",
+            "ds": "GSM - Llamada de WAP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12000001",
+            "tp": "USO",
+            "rf": "16344",
+            "ds": "Airtel Conecta",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8800015",
+            "tp": "USO",
+            "rf": "16348",
+            "ds": "GSM - Guías Telefónicas",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10100009",
+            "tp": "USO",
+            "rf": "16349",
+            "ds": "VT Contestador",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10500013",
+            "tp": "USO",
+            "rf": "16351",
+            "ds": "SERVICIO CUBA",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11300001",
+            "tp": "USO",
+            "rf": "16353",
+            "ds": "VT GSM - Llamada de Voz a miembro Qtal Vodafone",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11800002",
+            "tp": "USO",
+            "rf": "16363",
+            "ds": "VT GSM - Llamada de Voz a A2",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10800008",
+            "tp": "USO",
+            "rf": "16364",
+            "ds": "VT Contestador (Notificación mensaje)",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6800012",
+            "tp": "USO",
+            "rf": "16365",
+            "ds": "SMS - Multi Mensajes a miembros Qtal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10300009",
+            "tp": "USO",
+            "rf": "16366",
+            "ds": "GSM Líneas 80X, 907X",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9900009",
+            "tp": "USO",
+            "rf": "16372",
+            "ds": "SMS Nacionales a Número Especial",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7300012",
+            "tp": "USO",
+            "rf": "16375",
+            "ds": "SMS ENVIADO A TRAVES DE SMSC NO AIRTEL",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10300010",
+            "tp": "USO",
+            "rf": "16379",
+            "ds": "Consulta saldo",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6700015",
+            "tp": "USO",
+            "rf": "16380",
+            "ds": "SMS Servicios SMS",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9000003",
+            "tp": "USO",
+            "rf": "16383",
+            "ds": "SMS Recordatorio - Alertas",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7200016",
+            "tp": "USO",
+            "rf": "16505",
+            "ds": "SMS Mi Pais",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8800012",
+            "tp": "USO",
+            "rf": "16506",
+            "ds": "GSM - VT Comunidad Mi Pais",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11000001",
+            "tp": "USO",
+            "rf": "16591",
+            "ds": "VT R-Out Saliente : World Traveller Internacional",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6600005",
+            "tp": "USO",
+            "rf": "16638",
+            "ds": "R-out SMS Premium Vodafone World",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9200006",
+            "tp": "USO",
+            "rf": "16640",
+            "ds": "R-out SMS Vodafone World",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900024",
+            "tp": "USO",
+            "rf": "16641",
+            "ds": "R-out MOC SMS Text Info",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13400001",
+            "tp": "USO",
+            "rf": "16647",
+            "ds": "R-out MTC. Llamadas Recibidas Vodafone World",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14400001",
+            "tp": "USO",
+            "rf": "16648",
+            "ds": "R-Out Saliente : World Traveller Nacional",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11900001",
+            "tp": "USO",
+            "rf": "16650",
+            "ds": "R-Out Saliente : World Traveller Internacional",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12500001",
+            "tp": "USO",
+            "rf": "16654",
+            "ds": "R-out MOC. Llamadas a móvil. Mark-up",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14200001",
+            "tp": "USO",
+            "rf": "16656",
+            "ds": "R-out MOC. Llamadas nacionales. Mark-up",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11200001",
+            "tp": "USO",
+            "rf": "16658",
+            "ds": "R-out MOC. Llamada internac. Mark-up",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11800001",
+            "tp": "USO",
+            "rf": "16659",
+            "ds": "R-out MOC. Premium Rate Service. Mark-up",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8000014",
+            "tp": "USO",
+            "rf": "16716",
+            "ds": "Roaming Out GPRS-MMS enviado",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8000018",
+            "tp": "USO",
+            "rf": "16717",
+            "ds": "Roaming Out GPRS-MMS recibido",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13300002",
+            "tp": "USO",
+            "rf": "17001",
+            "ds": "Pago por acceso",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11200002",
+            "tp": "USO",
+            "rf": "17002",
+            "ds": "Susc. 1 dia",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13600001",
+            "tp": "USO",
+            "rf": "17010",
+            "ds": "Susc. Semanal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12100001",
+            "tp": "USO",
+            "rf": "17033",
+            "ds": "Bono 10 canciones",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12600002",
+            "tp": "USO",
+            "rf": "17095",
+            "ds": "Suscr. mensual",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12700001",
+            "tp": "USO",
+            "rf": "17098",
+            "ds": "Suscr. 30dias recur",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12800001",
+            "tp": "USO",
+            "rf": "17109",
+            "ds": "Bono 3x2 TONOREAL",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11700003",
+            "tp": "USO",
+            "rf": "2",
+            "ds": "Susc. 1 dia",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13200001",
+            "tp": "USO",
+            "rf": "22001",
+            "ds": "Normal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12300001",
+            "tp": "USO",
+            "rf": "27001",
+            "ds": "Pago por acceso",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13700001",
+            "tp": "USO",
+            "rf": "3",
+            "ds": "Susc. 7 dias",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12800002",
+            "tp": "USO",
+            "rf": "30663",
+            "ds": "R-Out Saliente : Euro Tarifas Internacional",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9300003",
+            "tp": "USO",
+            "rf": "30666",
+            "ds": "GSM - Nacional VF Casa",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7700019",
+            "tp": "USO",
+            "rf": "30725",
+            "ds": "R-out Maritimo SMS VF World",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10500011",
+            "tp": "USO",
+            "rf": "30726",
+            "ds": "R-out Maritimo SMS Text Info",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14000001",
+            "tp": "USO",
+            "rf": "30729",
+            "ds": "R-out Maritimo  MTC. Llamadas Recibidas Vodafone World",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12700003",
+            "tp": "USO",
+            "rf": "30732",
+            "ds": "R-Out Maritimo  Saliente : World Traveller Internacional",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7500013",
+            "tp": "USO",
+            "rf": "30737",
+            "ds": "90x1 a Todos VF Fijos",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10800007",
+            "tp": "USO",
+            "rf": "30739",
+            "ds": "GSM - 90x1 SUPER VF - VF",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11500001",
+            "tp": "USO",
+            "rf": "30741",
+            "ds": "90x1 a Todos VF Desvíos VF",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7400011",
+            "tp": "USO",
+            "rf": "30743",
+            "ds": "GSM - Llamada de tarificación compartida-30743",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10500014",
+            "tp": "USO",
+            "rf": "30744",
+            "ds": "GSM - Llamada de tarificación compartida-30744",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8600015",
+            "tp": "USO",
+            "rf": "30756",
+            "ds": "Waterloo VF-Fijos",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10000016",
+            "tp": "USO",
+            "rf": "30759",
+            "ds": "Waterloo VF-A2",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8400010",
+            "tp": "USO",
+            "rf": "30815",
+            "ds": "GSM - Nacional 100X1 Todos JADE2",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9100016",
+            "tp": "USO",
+            "rf": "30816",
+            "ds": "GSM  Llamada Mov VF 100X1 Todos JADE2",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7200017",
+            "tp": "USO",
+            "rf": "30817",
+            "ds": "GSM  Llanada NO VF 100X1 Todos JADE2",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9400016",
+            "tp": "USO",
+            "rf": "30819",
+            "ds": "GSM - Nacional 100X1 JADE3",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9400013",
+            "tp": "USO",
+            "rf": "30820",
+            "ds": "GSM  Llamada Mov VF 100X1 JADE3",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14400002",
+            "tp": "USO",
+            "rf": "60015",
+            "ds": "Promo Mi Pais",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8100012",
+            "tp": "USO",
+            "rf": "70030",
+            "ds": "Nat Wap on-net initial CDR",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8300011",
+            "tp": "USO",
+            "rf": "70031",
+            "ds": "National Wap on-net next CDR",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7700023",
+            "tp": "USO",
+            "rf": "70032",
+            "ds": "WAP Off-net",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8700009",
+            "tp": "USO",
+            "rf": "70033",
+            "ds": "National WEB",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900021",
+            "tp": "USO",
+            "rf": "70036",
+            "ds": "WAP Off-net First CDR",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6700014",
+            "tp": "USO",
+            "rf": "70045",
+            "ds": "TIPO_USO_70045",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10100010",
+            "tp": "USO",
+            "rf": "70048",
+            "ds": "TIPO_USO_70048",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6900006",
+            "tp": "USO",
+            "rf": "70050",
+            "ds": "TIPO_USO_70050",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8200011",
+            "tp": "USO",
+            "rf": "70052",
+            "ds": "TIPO_USO_70052",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7500012",
+            "tp": "USO",
+            "rf": "70056",
+            "ds": "TIPO_USO_70056",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8000013",
+            "tp": "USO",
+            "rf": "70058",
+            "ds": "TIPO_USO_70058",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7300015",
+            "tp": "USO",
+            "rf": "70060",
+            "ds": "TIPO_USO_70060",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10300011",
+            "tp": "USO",
+            "rf": "70064",
+            "ds": "Roam WAP IPCM Zona2 next CDR",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10300012",
+            "tp": "USO",
+            "rf": "70064",
+            "ds": "TIPO_USO_70064",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10400005",
+            "tp": "USO",
+            "rf": "70070",
+            "ds": "TIPO_USO_70070",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7000009",
+            "tp": "USO",
+            "rf": "70071",
+            "ds": "TIPO_USO_70071",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9500005",
+            "tp": "USO",
+            "rf": "70072",
+            "ds": "TIPO_USO_70072",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7200014",
+            "tp": "USO",
+            "rf": "70074",
+            "ds": "TIPO_USO_70074",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8800011",
+            "tp": "USO",
+            "rf": "70075",
+            "ds": "TIPO_USO_70075",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8900014",
+            "tp": "USO",
+            "rf": "70076",
+            "ds": "TIPO_USO_70076",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14500001",
+            "tp": "USO",
+            "rf": "70080",
+            "ds": "TIPO_USO_70080",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12700004",
+            "tp": "USO",
+            "rf": "70081",
+            "ds": "TIPO_USO_70081",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14300001",
+            "tp": "USO",
+            "rf": "70082",
+            "ds": "TIPO_USO_70082",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13800001",
+            "tp": "USO",
+            "rf": "70085",
+            "ds": "TIPO_USO_70085",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11300002",
+            "tp": "USO",
+            "rf": "70086",
+            "ds": "TIPO_USO_70086",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11700001",
+            "tp": "USO",
+            "rf": "70090",
+            "ds": "TIPO_USO_70090",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11700002",
+            "tp": "USO",
+            "rf": "70091",
+            "ds": "TIPO_USO_70091",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11400001",
+            "tp": "USO",
+            "rf": "70092",
+            "ds": "TIPO_USO_70092",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14100001",
+            "tp": "USO",
+            "rf": "70094",
+            "ds": "TIPO_USO_70094",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13300003",
+            "tp": "USO",
+            "rf": "70095",
+            "ds": "TIPO_USO_70095",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13800002",
+            "tp": "USO",
+            "rf": "70096",
+            "ds": "TIPO_USO_70096",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7200013",
+            "tp": "USO",
+            "rf": "70101",
+            "ds": "TIPO_USO_70101",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8900012",
+            "tp": "USO",
+            "rf": "70103",
+            "ds": "TIPO_USO_70103",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10900014",
+            "tp": "USO",
+            "rf": "70104",
+            "ds": "TIPO_USO_70104",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12400001",
+            "tp": "USO",
+            "rf": "80002",
+            "ds": "Suscrip.Bono 1 dia",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13900001",
+            "tp": "USO",
+            "rf": "80003",
+            "ds": "Suscr.Bono 30 dias",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13000002",
+            "tp": "USO",
+            "rf": "80004",
+            "ds": "Suscr.Bono mensual",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12800003",
+            "tp": "USO",
+            "rf": "80010",
+            "ds": "Suscripcion Semanal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6800009",
+            "tp": "USO",
+            "rf": "90010",
+            "ds": "Desvio VMS Aida",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9400014",
+            "tp": "USO",
+            "rf": "90011",
+            "ds": "",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6500010",
+            "tp": "USO",
+            "rf": "90015",
+            "ds": "LLs no facturables AVE",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8300010",
+            "tp": "USO",
+            "rf": "99000",
+            "ds": "Pruebas TU2",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10000015",
+            "tp": "CUOTAS",
+            "rf": "ALTA_A2",
+            "ds": "Alta A2",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8400009",
+            "tp": "CUOTAS",
+            "rf": "ALTA_MIPAIS",
+            "ds": "Alta Mi País",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10200009",
+            "tp": "CUOTAS",
+            "rf": "ALTA_MIPAIS_GRATIS",
+            "ds": "Promo Alta Mi País",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7100015",
+            "tp": "CUOTAS",
+            "rf": "ALTA_QTAL",
+            "ds": "Alta Qtal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8900013",
+            "tp": "CUOTAS",
+            "rf": "ALTA_QTAL_GRATIS",
+            "ds": "Promo Alta Qtal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10900011",
+            "tp": "CUOTAS",
+            "rf": "BD_S_BASICO",
+            "ds": "Vodafone live! TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9500006",
+            "tp": "CUOTAS",
+            "rf": "BD_S_BASICO_DIARIO",
+            "ds": "Mobile TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8400011",
+            "tp": "CUOTAS",
+            "rf": "BD_S_BASICO_PREP",
+            "ds": "Mobile TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7500014",
+            "tp": "CUOTAS",
+            "rf": "BD_S_BASICO_PROMO_3M",
+            "ds": "Vodafone live! TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6700012",
+            "tp": "CUOTAS",
+            "rf": "BD_S_BASICO_RPLUS",
+            "ds": "Pack TV Basico",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7700017",
+            "tp": "CUOTAS",
+            "rf": "BD_S_BASICO_SEMANAL",
+            "ds": "Mobile TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8300009",
+            "tp": "CUOTAS",
+            "rf": "BD_S_DIGITAL_MOVIL",
+            "ds": "Suscripción Digital + móvil",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8100010",
+            "tp": "CUOTAS",
+            "rf": "BD_S_DPLUS_PREP",
+            "ds": "Mobile TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10900015",
+            "tp": "CUOTAS",
+            "rf": "BD_S_GOLTV_SEMANAL",
+            "ds": "Bundle semanal Gol TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9100014",
+            "tp": "CUOTAS",
+            "rf": "BD_S_GOLTV_VOCENTO",
+            "ds": "Promo Gol TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9100015",
+            "tp": "CUOTAS",
+            "rf": "BD_S_PUTALOCURATV",
+            "ds": "Mobile TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10500015",
+            "tp": "CUOTAS",
+            "rf": "BD_S_TV_A3_15MIN",
+            "ds": "Mobile TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7100011",
+            "tp": "CUOTAS",
+            "rf": "BD_S_TV_A3_PREP",
+            "ds": "Mobile TV",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9900010",
+            "tp": "CUOTAS",
+            "rf": "BD_S_TV_ADULTOS",
+            "ds": "TV Adultos",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9800005",
+            "tp": "CUOTAS",
+            "rf": "BPP12",
+            "ds": "Bono Mi Pais Puntual",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8700011",
+            "tp": "CUOTAS",
+            "rf": "BPP3",
+            "ds": "Bono Mi Pais Puntual",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7100012",
+            "tp": "CUOTAS",
+            "rf": "BPP6",
+            "ds": "Bono Mi Pais Puntual",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7000010",
+            "tp": "CUOTAS",
+            "rf": "BPR12",
+            "ds": "Bono Mi Pais Mensual",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10600005",
+            "tp": "CUOTAS",
+            "rf": "BPR6",
+            "ds": "Bono Mi Pais Mensual",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7700020",
+            "tp": "CUOTAS",
+            "rf": "CambioSC",
+            "ds": "CambioSC",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8800014",
+            "tp": "CUOTAS",
+            "rf": "CAMBIO_MIPAIS",
+            "ds": "Alta Mi País",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8600017",
+            "tp": "CUOTAS",
+            "rf": "CAMBIO_MIPAIS_NF",
+            "ds": "Cambio de Tu Número Mi País",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10100012",
+            "tp": "CUOTAS",
+            "rf": "CHMFP",
+            "ds": "Alta Happy SMS/MMS",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900017",
+            "tp": "CUOTAS",
+            "rf": "CUOTAIPCMA",
+            "ds": "35 conexiones GPRS - WAP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7800003",
+            "tp": "CUOTAS",
+            "rf": "CuotaIPCMC",
+            "ds": "Tarifa plana Internet en el móvil",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9700003",
+            "tp": "CUOTAS",
+            "rf": "CUOTA_60x1aTodos",
+            "ds": "Cuota Mensual N.a todos",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8900011",
+            "tp": "CUOTAS",
+            "rf": "CUOTA_MIPAIS_NF",
+            "ds": "Cuota Tu Número Mi País",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10000017",
+            "tp": "CUOTAS",
+            "rf": "CUOTA_SUPER_60x1",
+            "ds": "Cuota Super 90x1",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900020",
+            "tp": "CUOTAS",
+            "rf": "DMMS1",
+            "ds": "Happy",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6700011",
+            "tp": "CUOTAS",
+            "rf": "DTVC1",
+            "ds": "Cuota Mensual VF En Tu Casa 1",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9100017",
+            "tp": "CUOTAS",
+            "rf": "DTVC4",
+            "ds": "Cuota Mensual VF En Tu Casa Tarifa 1 con Movilidad",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7500015",
+            "tp": "CUOTAS",
+            "rf": "IPCMC",
+            "ds": "Tarifa plana Internet en el móvil",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10000014",
+            "tp": "CUOTAS",
+            "rf": "Pagos Vodafone",
+            "ds": "Pagos Vodafone",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9400018",
+            "tp": "CUOTAS",
+            "rf": "PR015",
+            "ds": "Decreciente",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10100011",
+            "tp": "CUOTAS",
+            "rf": "PR016",
+            "ds": "Decreciente (Reducido)",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8000017",
+            "tp": "CUOTAS",
+            "rf": "SMS_CONSUMO",
+            "ds": "Cuota mensual SMS Consumo",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8700012",
+            "tp": "CUOTAS",
+            "rf": "Toronto24h",
+            "ds": "MENS 24 Horas",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7600018",
+            "tp": "CUOTAS",
+            "rf": "TorontoFin",
+            "ds": "MENS Finde",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10200007",
+            "tp": "CUOTAS",
+            "rf": "TorontoTod",
+            "ds": "MENS A Todos",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7700022",
+            "tp": "CUOTAS",
+            "rf": "TUYYO",
+            "ds": "Cuota Tu y Yo",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10500012",
+            "tp": "CUOTAS",
+            "rf": "TUYYO2",
+            "ds": "Cuota Tu y Yo",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9600014",
+            "tp": "CUOTAS",
+            "rf": "VMCADD1",
+            "ds": "BonoVMC Regalo Inicial",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7600016",
+            "tp": "CUOTAS",
+            "rf": "VMCAVAN",
+            "ds": "Bono Avanzado",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7700018",
+            "tp": "CUOTAS",
+            "rf": "VMCBASI",
+            "ds": "Bono Básico",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6900005",
+            "tp": "CUOTAS",
+            "rf": "VMCINIC",
+            "ds": "Bono Inicial",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9100018",
+            "tp": "CUOTAS",
+            "rf": "VMCMES",
+            "ds": "Bono mensual",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8300012",
+            "tp": "CUOTAS",
+            "rf": "VMCPREM",
+            "ds": "Bono Premium",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8200009",
+            "tp": "CUOTAS",
+            "rf": "VMCQUI",
+            "ds": "Bono quincenal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7100014",
+            "tp": "CUOTAS",
+            "rf": "VMCSEM",
+            "ds": "Bono semanal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6800010",
+            "tp": "CUOTAS",
+            "rf": "WapGPRS",
+            "ds": "Bono Navegacion Movil semanal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        }
+      ]
+    }
+  }
+}

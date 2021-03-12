@@ -1,0 +1,64 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "100",
+            "rf": "0",
+            "pc": "3751",
+            "bc": "5695"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "200",
+            "rf": "1",
+            "pc": "612",
+            "bc": "692"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "300",
+            "rf": "2",
+            "pc": "178",
+            "bc": "99"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "400",
+            "rf": "3",
+            "pc": "0",
+            "bc": "34"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1001",
+            "rf": "6",
+            "pc": "0",
+            "bc": "9"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "101001",
+            "pc": "0",
+            "bc": "3"
+          }
+        }
+      ]
+    }
+  }
+}

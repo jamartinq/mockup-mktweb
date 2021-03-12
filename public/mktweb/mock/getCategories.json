@@ -1,0 +1,1207 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "2000064",
+            "pid": "1000004",
+            "rf": "Cargos No Periódicos RESTO",
+            "fa": "CargosNoPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000053",
+            "pid": "1000002",
+            "rf": "Cargos No Periódicos TV",
+            "fa": "CargosNoPeriodicos2G",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000065",
+            "pid": "1000004",
+            "rf": "Cargos Periódicos RESTO",
+            "fa": "CargosPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000057",
+            "pid": "1000002",
+            "rf": "Cargos Periódicos TV",
+            "fa": "CargosPeriodicos2G",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000081",
+            "pid": "1000001",
+            "rf": "Cargos4G",
+            "fa": "Cargos4G",
+            "cl": "Cargos4G",
+            "mn": "Cargos4G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000066",
+            "pid": "1000004",
+            "rf": "Descuentos RESTO",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1000001",
+            "pid": "",
+            "rf": "Detalle Facturación Neta GPRS",
+            "fa": "FACNETGPRS",
+            "cl": "LLAMGPRS",
+            "mn": "MINGPRS"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1000002",
+            "pid": "",
+            "rf": "Detalle Facturación Neta GSM",
+            "fa": "FACNETGSM",
+            "cl": "LLAMGSM",
+            "mn": "MINGSM"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1000003",
+            "pid": "",
+            "rf": "Detalle Facturación Neta ISP",
+            "fa": "FACNETINT",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1000004",
+            "pid": "",
+            "rf": "Detalle Facturación Neta Resto",
+            "fa": "FACNETRES",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1000005",
+            "pid": "",
+            "rf": "Detalle Facturación Neta SAD",
+            "fa": "FACNETSAD",
+            "cl": "LLAMSAD",
+            "mn": "MINSAD"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1000006",
+            "pid": "",
+            "rf": "Detalle Facturación Neta SAI",
+            "fa": "FACNETSAI",
+            "cl": "LLAMSAI",
+            "mn": "MINSAI"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000004",
+            "pid": "1000001",
+            "rf": "GPRS Cargos No Periódicos",
+            "fa": "CargosNoPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000001",
+            "pid": "1000001",
+            "rf": "GPRS Cargos Periódicos",
+            "fa": "CargosPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000016",
+            "pid": "1000001",
+            "rf": "GPRS Cargos Periódicos 2,5G",
+            "fa": "CargosPeriodicos25G",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500033",
+            "pid": "1000001",
+            "rf": "GPRS Correo Cargos Periodicos",
+            "fa": "CORREOCARGOSPERIODICOS",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500034",
+            "pid": "1000001",
+            "rf": "GPRS Datos Naveg Cargos Periodicos",
+            "fa": "DATNAVCARGOSPERIODICOS",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000003",
+            "pid": "1000001",
+            "rf": "GPRS Descuentos",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000017",
+            "pid": "1000001",
+            "rf": "GPRS Descuentos 2,5G",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000018",
+            "pid": "1000001",
+            "rf": "GPRS Ingreso Entrante MMS",
+            "fa": "IngresoEntranteMMS",
+            "cl": "MMSEntrante",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000002",
+            "pid": "1000001",
+            "rf": "GPRS Otros Cargos",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500035",
+            "pid": "1000001",
+            "rf": "GPRS Resto Cargos Periodicos",
+            "fa": "RESTOCARGOSPERIODICOSGPRS",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000011",
+            "pid": "1000001",
+            "rf": "GPRS Uso Internet",
+            "fa": "UsoGPRSInternet",
+            "cl": "UsoGPRSInternet",
+            "mn": "UsoGPRSInternet"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "4000020",
+            "pid": "1000001",
+            "rf": "GPRS Uso Internet 3G",
+            "fa": "UsoInternet3G",
+            "cl": "UsoInternet3G",
+            "mn": "UsoInternet3G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000012",
+            "pid": "1000001",
+            "rf": "GPRS Uso Intranet",
+            "fa": "UsoGPRSIntranet",
+            "cl": "UsoGPRSIntranet",
+            "mn": "UsoGPRSIntranet"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "4000021",
+            "pid": "1000001",
+            "rf": "GPRS Uso Intranet 3G",
+            "fa": "UsoIntranet3G",
+            "cl": "UsoIntranet3G",
+            "mn": "UsoIntranet3G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000014",
+            "pid": "1000001",
+            "rf": "GPRS Uso MMS Resto",
+            "fa": "UsoGPRSMMS_Resto",
+            "cl": "UsoGPRSMMS_Resto",
+            "mn": "UsoGPRSMMS_Resto"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000013",
+            "pid": "1000001",
+            "rf": "GPRS Uso MMS Vf",
+            "fa": "UsoGPRSMMS",
+            "cl": "UsoGPRSMMS",
+            "mn": "UsoGPRSMMS"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000005",
+            "pid": "1000001",
+            "rf": "GPRS Uso Resto",
+            "fa": "UsoResto",
+            "cl": "UsoResto",
+            "mn": "UsoResto"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "4000022",
+            "pid": "1000001",
+            "rf": "GPRS Uso Resto 3G",
+            "fa": "UsoResto3G",
+            "cl": "UsoResto3G",
+            "mn": "UsoResto3G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000008",
+            "pid": "1000001",
+            "rf": "GPRS Uso Roaming Out Internet",
+            "fa": "UsoRoamingOutGPRSInternet",
+            "cl": "UsoRoamingOutGPRSInternet",
+            "mn": "UsoRoamingOutGPRSInternet"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000009",
+            "pid": "1000001",
+            "rf": "GPRS Uso Roaming Out Intranet",
+            "fa": "UsoRoamingOutGPRSIntranet",
+            "cl": "UsoRoamingOutGPRSIntranet",
+            "mn": "UsoRoamingOutGPRSIntranet"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000010",
+            "pid": "1000001",
+            "rf": "GPRS Uso Roaming Out MMS",
+            "fa": "UsoRoamingOutGPRSMMS",
+            "cl": "UsoRoamingOutGPRSMMS",
+            "mn": "UsoRoamingOutGPRSMMS"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000007",
+            "pid": "1000001",
+            "rf": "GPRS Uso Roaming Out Wap",
+            "fa": "UsoRoamingOutGPRSWAP",
+            "cl": "UsoRoamingOutGPRSWAP",
+            "mn": "UsoRoamingOutGPRSWAP"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000006",
+            "pid": "1000001",
+            "rf": "GPRS Uso Servicios Premium",
+            "fa": "UsoServiciosPremium",
+            "cl": "UsoServiciosPremium",
+            "mn": "UsoServiciosPremium"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "4000023",
+            "pid": "1000001",
+            "rf": "GPRS Uso Servicios Premium 3G",
+            "fa": "UsoServiciosPremium3G",
+            "cl": "UsoServiciosPremium3G",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "4000024",
+            "pid": "1000001",
+            "rf": "GPRS Uso Wap 3G OffNet",
+            "fa": "UsoWAP3G_OffNet",
+            "cl": "UsoWAP3G_OffNet",
+            "mn": "UsoWAP3G_OffNet"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "4000025",
+            "pid": "1000001",
+            "rf": "GPRS Uso Wap 3G OnNet",
+            "fa": "UsoWAP3G",
+            "cl": "UsoWAP3G",
+            "mn": "UsoWAP3G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000019",
+            "pid": "1000001",
+            "rf": "GPRS Uso Wap OffNet",
+            "fa": "UsoGPRSWAP_OffNet",
+            "cl": "UsoGPRSWAP_OffNet",
+            "mn": "UsoGPRSWAP_OffNet"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000015",
+            "pid": "1000001",
+            "rf": "GPRS Uso Wap OnNet",
+            "fa": "UsoGPRSWAP",
+            "cl": "UsoGPRSWAP",
+            "mn": "UsoGPRSWAP"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500036",
+            "pid": "1000001",
+            "rf": "GSM ADSL Cargos Periodicos 25G",
+            "fa": "ADSLCARGOSPERIODICOS25G",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000051",
+            "pid": "1000002",
+            "rf": "GSM Cargos No Periódicos",
+            "fa": "CargosNoPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000052",
+            "pid": "1000002",
+            "rf": "GSM Cargos No Periódicos Voz",
+            "fa": "CargosNoPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000020",
+            "pid": "1000002",
+            "rf": "GSM Cargos Periódicos",
+            "fa": "CargosPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000025",
+            "pid": "1000002",
+            "rf": "GSM Cargos Periódicos Voz",
+            "fa": "CargosPeriodicosVoz",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500037",
+            "pid": "1000001",
+            "rf": "GSM Correo Cargos Periodicos 25G",
+            "fa": "CORREOCARGOSPERIODICOS25G",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500027",
+            "pid": "1000002",
+            "rf": "GSM Cuota Cargos Periodicos 2G",
+            "fa": "CUOTACARGOSPERIODICOS2G",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500030",
+            "pid": "1000002",
+            "rf": "GSM Cuota Cargos Periodicos VOZ",
+            "fa": "CUOTACARGOSPERIODICOSVOZ",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500038",
+            "pid": "1000001",
+            "rf": "GSM Datos Naveg Cargos Periodicos 25G",
+            "fa": "DATNAVCARGOSPERIODICOS25G",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000023",
+            "pid": "1000002",
+            "rf": "GSM Descuentos 2G",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000022",
+            "pid": "1000002",
+            "rf": "GSM Descuentos Voz",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500028",
+            "pid": "1000002",
+            "rf": "GSM Franquicia Cargos Periodicos 2G",
+            "fa": "FRANQUICIACARGOSPERIODICOS2G",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500031",
+            "pid": "1000002",
+            "rf": "GSM Franquicia Cargos Periodicos VOZ",
+            "fa": "FRANQUICIACARGOSPERIODICOSVOZ",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000046",
+            "pid": "1000002",
+            "rf": "GSM Ingreso Entrante SMS",
+            "fa": "IngresoEntranteSMS",
+            "cl": "LlamadasEntrantesSMS",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000047",
+            "pid": "1000002",
+            "rf": "GSM Ingreso Entrante Voz",
+            "fa": "IngresoEntranteVoz",
+            "cl": "LlamadasEntrantesVoz",
+            "mn": "MinutosEntrantesVoz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000024",
+            "pid": "1000002",
+            "rf": "GSM Ingreso Prepago",
+            "fa": "IngresoPrepago",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000021",
+            "pid": "1000002",
+            "rf": "GSM Otros Cargos",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500026",
+            "pid": "1000002",
+            "rf": "GSM Resto Cargos Periodicos",
+            "fa": "RESTOCARGOSPERIODICOS",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500039",
+            "pid": "1000001",
+            "rf": "GSM Resto Cargos Periodicos 25G",
+            "fa": "RESTOCARGOSPERIODICOSGPRS25G",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500029",
+            "pid": "1000002",
+            "rf": "GSM Resto Cargos Periodicos 2G",
+            "fa": "RESTOCARGOSPERIODICOS2G",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500032",
+            "pid": "1000002",
+            "rf": "GSM Resto Cargos Periodicos VOZ",
+            "fa": "RESTOCARGOSPERIODICOSVOZ",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000031",
+            "pid": "1000002",
+            "rf": "GSM Uso Contestador",
+            "fa": "UsoContestador",
+            "cl": "UsoContestador",
+            "mn": "UsoContestador"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000041",
+            "pid": "1000002",
+            "rf": "GSM Uso Datos",
+            "fa": "UsoDatos",
+            "cl": "UsoDatos",
+            "mn": "UsoDatos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000027",
+            "pid": "1000002",
+            "rf": "GSM Uso Fijos",
+            "fa": "UsoVodafoneFijo",
+            "cl": "UsoVodafoneFijo",
+            "mn": "UsoVodafoneFijo"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000054",
+            "pid": "1000002",
+            "rf": "GSM Uso GCU Destino Fijo",
+            "fa": "UsoGCUDestinoFijo",
+            "cl": "UsoGCUMovilDestinoFijo",
+            "mn": "UsoGCUMovilDestinoFijo"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000055",
+            "pid": "1000002",
+            "rf": "GSM Uso GCU Destino Móvil",
+            "fa": "UsoGCUDestinoMovil",
+            "cl": "UsoGCUMovilDestinoMovil",
+            "mn": "UsoGCUMovilDestinoMovil"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000032",
+            "pid": "1000002",
+            "rf": "GSM Uso Internacional",
+            "fa": "UsoInternacional",
+            "cl": "UsoInternacional",
+            "mn": "UsoInternacional"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000049",
+            "pid": "1000002",
+            "rf": "GSM Uso Internacional Mi País",
+            "fa": "UsoInternacionalMiPais",
+            "cl": "UsoInternacMiPais",
+            "mn": "UsoInternacMiPais"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000029",
+            "pid": "1000002",
+            "rf": "GSM Uso Otros Operadores",
+            "fa": "UsoVodafoneOtrosOperadores",
+            "cl": "UsoVodafoneOtrosOperadores",
+            "mn": "UsoVodafoneOtrosOperadores"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000042",
+            "pid": "1000002",
+            "rf": "GSM Uso Qtal",
+            "fa": "UsoQTAL",
+            "cl": "UsoQTAL",
+            "mn": "UsoQTAL"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000058",
+            "pid": "1000002",
+            "rf": "GSM Uso Resto",
+            "fa": "UsoResto",
+            "cl": "UsoResto",
+            "mn": "UsoResto"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000033",
+            "pid": "1000002",
+            "rf": "GSM Uso Roaming Realizado",
+            "fa": "UsoRoamingOutRealizdo",
+            "cl": "UsoRoamingOutRealizdo",
+            "mn": "UsoRoamingOutRealizdo"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000039",
+            "pid": "1000002",
+            "rf": "GSM Uso Roaming Recibido",
+            "fa": "UsoRoamingOutRecibido",
+            "cl": "UsoRoamingOutRecibido",
+            "mn": "UsoRoamingOutRecibido"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000026",
+            "pid": "1000002",
+            "rf": "GSM Uso Servicios Premium",
+            "fa": "UsoServiciosPremium",
+            "cl": "UsoServiciosPremium",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000045",
+            "pid": "1000002",
+            "rf": "GSM Uso SMS A2",
+            "fa": "UsoSMSA2",
+            "cl": "UsoSMSA2",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000037",
+            "pid": "1000002",
+            "rf": "GSM Uso SMS Internacional",
+            "fa": "UsoSMSInternacional",
+            "cl": "UsoSMSInternacional",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "3300001",
+            "pid": "1000002",
+            "rf": "GSM Uso SMS Internacional Mi Paí",
+            "fa": "UsoSMSInternacMiPais",
+            "cl": "UsoSMSInternacMiPais",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000056",
+            "pid": "1000002",
+            "rf": "GSM Uso SMS Mensaweb",
+            "fa": "UsoSMSMensaweb",
+            "cl": "UsoSMSMensaweb",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000038",
+            "pid": "1000002",
+            "rf": "GSM Uso SMS Otro Centro Servidor",
+            "fa": "UsoSMSOtroCentroServidor",
+            "cl": "UsoSMSOtroCentroServidor",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000035",
+            "pid": "1000002",
+            "rf": "GSM Uso SMS Otros Operadores",
+            "fa": "UsoSMSOtrosOperadores",
+            "cl": "UsoSMSOtrosOperadores",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000044",
+            "pid": "1000002",
+            "rf": "GSM Uso SMS Qtal",
+            "fa": "UsoSMSQTAL",
+            "cl": "UsoSMSQTAL",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000036",
+            "pid": "1000002",
+            "rf": "GSM Uso SMS Resto",
+            "fa": "UsoSMSResto",
+            "cl": "UsoSMSResto",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000040",
+            "pid": "1000002",
+            "rf": "GSM Uso SMS Roaming Out",
+            "fa": "UsoSMSRoamingOut",
+            "cl": "UsoSMSRoamingOut",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000034",
+            "pid": "1000002",
+            "rf": "GSM Uso SMS Vodafone-Vodafone",
+            "fa": "UsoSMSVodafoneVodafone",
+            "cl": "UsoSMSVodafoneVodafone",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000048",
+            "pid": "1000002",
+            "rf": "GSM Uso Videotelefonía3G",
+            "fa": "UsoVideotelefonia3G",
+            "cl": "UsoVideotelefonia3G",
+            "mn": "UsoVideotelefonia3G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000028",
+            "pid": "1000002",
+            "rf": "GSM Uso Vodafone",
+            "fa": "UsoVodafoneVodafone",
+            "cl": "UsoVodafoneVodafone",
+            "mn": "UsoVodafoneVodafone"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000030",
+            "pid": "1000002",
+            "rf": "GSM Uso Wap",
+            "fa": "UsoWAP",
+            "cl": "UsoWAP",
+            "mn": "UsoWAP"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000050",
+            "pid": "1000002",
+            "rf": "GSM- GCU No VPN",
+            "fa": "UsoGCUNoVPN",
+            "cl": "UsoGCUNoVPN",
+            "mn": "UsoGCUNoVPN"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000059",
+            "pid": "1000003",
+            "rf": "ISP Cargos No Periódicos",
+            "fa": "CargosNoPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000060",
+            "pid": "1000003",
+            "rf": "ISP Cargos Periódicos",
+            "fa": "CargosPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000061",
+            "pid": "1000003",
+            "rf": "ISP Descuentos",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000063",
+            "pid": "1000003",
+            "rf": "ISP Otros Cargos",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000062",
+            "pid": "1000003",
+            "rf": "ISP Uso",
+            "fa": "UsoInternet",
+            "cl": "UsoInternet",
+            "mn": "UsoInternet"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000067",
+            "pid": "1000004",
+            "rf": "Otros Cargos RESTO",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000072",
+            "pid": "1000005",
+            "rf": "SAD Cargos No Periódicos",
+            "fa": "CargosNoPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500040",
+            "pid": "1000005",
+            "rf": "SAD CARGOS PERIODICOS DATOS IP",
+            "fa": "CargosPeriodicosDatosIP",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000069",
+            "pid": "1000005",
+            "rf": "SAD Cargos Periódicos",
+            "fa": "CargosPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000073",
+            "pid": "1000005",
+            "rf": "SAD Cargos Periódicos Datos",
+            "fa": "CargosPeriodicosDatos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000071",
+            "pid": "1000005",
+            "rf": "SAD Descuentos",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000074",
+            "pid": "1000005",
+            "rf": "SAD Descuentos Datos",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000070",
+            "pid": "1000005",
+            "rf": "SAD Otros Cargos",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000075",
+            "pid": "1000005",
+            "rf": "SAD Uso",
+            "fa": "UsoSAD",
+            "cl": "UsoSAD",
+            "mn": "UsoSAD"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500041",
+            "pid": "1000005",
+            "rf": "SAD USO GCU FIJO",
+            "fa": "USOGCUFIJO",
+            "cl": "USOGCUFIJO",
+            "mn": "USOGCUFIJO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500042",
+            "pid": "1000005",
+            "rf": "SAD USO GCU MOVIL",
+            "fa": "USOGCUMOVIL",
+            "cl": "USOGCUMOVIL",
+            "mn": "USOGCUMOVIL"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500043",
+            "pid": "1000005",
+            "rf": "SAD USO INTERNACIONAL",
+            "fa": "USOINTERNACIONAL",
+            "cl": "USOINTERNACIONAL",
+            "mn": "USOINTERNACIONAL"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500044",
+            "pid": "1000005",
+            "rf": "SAD USO METROPOLITANA",
+            "fa": "USOMETROPOLITANA",
+            "cl": "USOMETROPOLITANA",
+            "mn": "USOMETROPOLITANA"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500045",
+            "pid": "1000005",
+            "rf": "SAD USO METROPOLITANA MADRID",
+            "fa": "USOMETROPOLITANAMAD",
+            "cl": "USOMETROPOLITANAMAD",
+            "mn": "USOMETROPOLITANAMAD"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500046",
+            "pid": "1000005",
+            "rf": "SAD USO NACIONAL",
+            "fa": "USONACIONAL",
+            "cl": "USONACIONAL",
+            "mn": "USONACIONAL"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500047",
+            "pid": "1000005",
+            "rf": "SAD USO OOM",
+            "fa": "USOOOM",
+            "cl": "USOOOM",
+            "mn": "USOOOM"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500048",
+            "pid": "1000005",
+            "rf": "SAD USO PROVINCIAL",
+            "fa": "USOPROVINCIAL",
+            "cl": "USOPROVINCIAL",
+            "mn": "USOPROVINCIAL"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500050",
+            "pid": "1000005",
+            "rf": "SAD USO RESTO",
+            "fa": "UsoRestoNeto",
+            "cl": "UsoResto",
+            "mn": "UsoResto"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1500049",
+            "pid": "1000005",
+            "rf": "SAD USO VODAFONE",
+            "fa": "USOVODAFONE",
+            "cl": "USOVODAFONE",
+            "mn": "USOVODAFONE"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000079",
+            "pid": "1000006",
+            "rf": "SAI Cargos No Periódicos",
+            "fa": "CargosNoPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000076",
+            "pid": "1000006",
+            "rf": "SAI Cargos Periódicos",
+            "fa": "CargosPeriodicos",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000078",
+            "pid": "1000006",
+            "rf": "SAI Descuentos",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000077",
+            "pid": "1000006",
+            "rf": "SAI Otros Cargos",
+            "fa": "",
+            "cl": "",
+            "mn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000080",
+            "pid": "1000006",
+            "rf": "SAI Uso",
+            "fa": "UsoSAI",
+            "cl": "UsoSAI",
+            "mn": "UsoSAI"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000068",
+            "pid": "1000004",
+            "rf": "Uso RESTO",
+            "fa": "UsoResto",
+            "cl": "UsoResto",
+            "mn": "UsoResto"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000043",
+            "pid": "1000002",
+            "rf": "Uso TV",
+            "fa": "UsoA2",
+            "cl": "UsoA2",
+            "mn": "UsoA2"
+          }
+        }
+      ]
+    }
+  }
+}

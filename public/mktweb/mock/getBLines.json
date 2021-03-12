@@ -1,0 +1,89 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "5500003",
+            "rf": "FIXD",
+            "ds": "Fixed Data",
+            "ic": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "5500004",
+            "rf": "FIXV",
+            "ds": "Fixed Voice",
+            "ic": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "5500005",
+            "rf": "FMS",
+            "ds": "Fixed Mobile Substitution",
+            "ic": "3"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "5500001",
+            "rf": "MOBD",
+            "ds": "Mobile Data",
+            "ic": "2"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "5500002",
+            "rf": "MOBV",
+            "ds": "Mobile Voice",
+            "ic": "3"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "5510002",
+            "rf": "PP",
+            "ds": "Plan de Precios",
+            "ic": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "5610001",
+            "rf": "SMS",
+            "ds": "aaaaa",
+            "ic": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "5510001",
+            "rf": "SS",
+            "ds": "Servicio Suplementario",
+            "ic": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "5710001",
+            "rf": "TV",
+            "ds": "Television",
+            "ic": "0"
+          }
+        }
+      ]
+    }
+  }
+}

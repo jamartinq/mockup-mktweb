@@ -1,0 +1,1007 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "7400015",
+            "tp": "USO",
+            "rf": "00000",
+            "ds": "TIPO_USO_00000",
+            "ci": "",
+            "cn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8500009",
+            "tp": "CUOTAS",
+            "rf": "001",
+            "ds": "001",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9600017",
+            "tp": "CUOTAS",
+            "rf": "023",
+            "ds": "Recuperación de anticipo de Saldo",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8600014",
+            "tp": "CUOTAS",
+            "rf": "024",
+            "ds": "Anticipo de Saldo",
+            "ci": "2100141",
+            "cn": "ENTR_VF"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9900012",
+            "tp": "CUOTAS",
+            "rf": "032",
+            "ds": "Traspaso Saldo",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9600015",
+            "tp": "CUOTAS",
+            "rf": "033",
+            "ds": "Cobro Servicio Traspaso Saldo",
+            "ci": "2100134",
+            "cn": "A2"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7400014",
+            "tp": "CUOTAS",
+            "rf": "034",
+            "ds": "Anular Traspaso Saldo",
+            "ci": "2100134",
+            "cn": "A2"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13300001",
+            "tp": "USO",
+            "rf": "1",
+            "ds": "Pago por acceso",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13900002",
+            "tp": "USO",
+            "rf": "10005",
+            "ds": "Pago por acceso",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12200001",
+            "tp": "USO",
+            "rf": "10006",
+            "ds": "Suscripcion mensual",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14400003",
+            "tp": "USO",
+            "rf": "10015",
+            "ds": "Suscripcion diaria",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11500002",
+            "tp": "USO",
+            "rf": "10017",
+            "ds": "Suscripcion semanal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10000013",
+            "tp": "USO",
+            "rf": "14037",
+            "ds": "SVA SMS Premium Descargas",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8500010",
+            "tp": "USO",
+            "rf": "14210",
+            "ds": "Tipo de uso SVA",
+            "ci": "2100139",
+            "cn": "DESC_WAP_PREMIUM"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7100013",
+            "tp": "USO",
+            "rf": "14214",
+            "ds": "Tipo de uso SVA SMS Premium",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11600001",
+            "tp": "USO",
+            "rf": "14220",
+            "ds": "Tipo de uso SVA-Alta Qtal a2",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11600002",
+            "tp": "USO",
+            "rf": "14220",
+            "ds": "Normal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900019",
+            "tp": "USO",
+            "rf": "14222",
+            "ds": "Alarmas SVA SMS, Subscripcion por Cuota Marca Blanca",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7300011",
+            "tp": "USO",
+            "rf": "14224",
+            "ds": "Tipo de uso SVA SMS Parte Basica",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6500009",
+            "tp": "USO",
+            "rf": "14260",
+            "ds": "Tipo de uso SVA GPRS",
+            "ci": "",
+            "cn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10900013",
+            "tp": "USO",
+            "rf": "14265",
+            "ds": "Tipo de uso SVA-GPRS para MMS",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7500011",
+            "tp": "USO",
+            "rf": "14266",
+            "ds": "Tipo de uso SVA-GPRS para MMS destino VF",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900022",
+            "tp": "USO",
+            "rf": "14280",
+            "ds": "Tipo de uso SVA-GPRS para MMS Premium de Contenido",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7600013",
+            "tp": "USO",
+            "rf": "14285",
+            "ds": "Tipo de uso SVA GPRS Streaming",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10600006",
+            "tp": "USO",
+            "rf": "14287",
+            "ds": "Tipo de uso SVA GPRS Streaming",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8700010",
+            "tp": "USO",
+            "rf": "14290",
+            "ds": "Tipo de uso SVA GPRS DRM",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10400006",
+            "tp": "USO",
+            "rf": "14293",
+            "ds": "Tipo uso SVA-GPRS IPCM Chat WAP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10200008",
+            "tp": "USO",
+            "rf": "14297",
+            "ds": "Alarmas SVA MMS, Subscripcion por Cuota Marca Blanca",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7400012",
+            "tp": "USO",
+            "rf": "14301",
+            "ds": "Streaming diferido gratuito",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6600006",
+            "tp": "USO",
+            "rf": "14302",
+            "ds": "Streaming live gratuito",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8600018",
+            "tp": "USO",
+            "rf": "14304",
+            "ds": "Tipo de uso SVA  MMS Premium",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9600016",
+            "tp": "USO",
+            "rf": "16258",
+            "ds": "GSM T.Plana Finde - VF",
+            "ci": "2100159",
+            "cn": "M_M"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7000012",
+            "tp": "USO",
+            "rf": "16288",
+            "ds": "GSM Voz Family For Free",
+            "ci": "2100159",
+            "cn": "M_M"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8100009",
+            "tp": "USO",
+            "rf": "16289",
+            "ds": "GSM VT Family For Free",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8000016",
+            "tp": "USO",
+            "rf": "16300",
+            "ds": "GSM - Nacional Airtel",
+            "ci": "2100153",
+            "cn": "M_F_NP"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8500011",
+            "tp": "USO",
+            "rf": "16301",
+            "ds": "GSM - Nacional no Airtel",
+            "ci": "2100153",
+            "cn": "M_F_NP"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7600014",
+            "tp": "USO",
+            "rf": "16302",
+            "ds": "GSM - Provincial Airtel",
+            "ci": "2100156",
+            "cn": "M_F_P"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7400013",
+            "tp": "USO",
+            "rf": "16303",
+            "ds": "GSM - Provincial no Airtel",
+            "ci": "2100156",
+            "cn": "M_F_P"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9400017",
+            "tp": "USO",
+            "rf": "16308",
+            "ds": "GSM-Llamada internacional Mi País",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13100001",
+            "tp": "USO",
+            "rf": "16311",
+            "ds": "GSM - Desvío Nacional no Airtel",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6500011",
+            "tp": "USO",
+            "rf": "16320",
+            "ds": "GSM - Llamada móvil Airtel",
+            "ci": "2100159",
+            "cn": "M_M"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8200010",
+            "tp": "USO",
+            "rf": "16321",
+            "ds": "GSM - Llamada móvil no Airtel",
+            "ci": "2100162",
+            "cn": "M_O_M"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12600001",
+            "tp": "USO",
+            "rf": "16322",
+            "ds": "R-out MTC: Llamadas Recibidas.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11100001",
+            "tp": "USO",
+            "rf": "16323",
+            "ds": "R-out MOC: Llamada Móvil Vf.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14300002",
+            "tp": "USO",
+            "rf": "16324",
+            "ds": "R-out MOC: Llamada Móvil No Vf.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11000003",
+            "tp": "USO",
+            "rf": "16325",
+            "ds": "R-out MOC: Llamada Fijo Nacional.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11100002",
+            "tp": "USO",
+            "rf": "16328",
+            "ds": "R-out MOC: Llamada País Visitado.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13000001",
+            "tp": "USO",
+            "rf": "16329",
+            "ds": "R-out MOC: Llamada Internacional.RRP/BRP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12700002",
+            "tp": "USO",
+            "rf": "16330",
+            "ds": "GSM - Desvío móvil Airtel",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12900001",
+            "tp": "USO",
+            "rf": "16331",
+            "ds": "GSM - Desvío móvil no Airtel",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6500012",
+            "tp": "USO",
+            "rf": "16333",
+            "ds": "GSM - Llamada gratuita Enmascarada",
+            "ci": "2100146",
+            "cn": "GRAT"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9200005",
+            "tp": "USO",
+            "rf": "16336",
+            "ds": "VT GSM - Llamada móvil VF",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7200015",
+            "tp": "USO",
+            "rf": "16337",
+            "ds": "VT GSM - Llamada móvil no VF",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9100013",
+            "tp": "USO",
+            "rf": "16340",
+            "ds": "GSM - Llamada especial",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6800011",
+            "tp": "USO",
+            "rf": "16341",
+            "ds": "GSM - Llamada gratuita",
+            "ci": "",
+            "cn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8400012",
+            "tp": "USO",
+            "rf": "16342",
+            "ds": "GSM - Llamada de tarificación compartida",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11000002",
+            "tp": "USO",
+            "rf": "16343",
+            "ds": "GSM - Llamada de WAP",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12000001",
+            "tp": "USO",
+            "rf": "16344",
+            "ds": "Airtel Conecta",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7000011",
+            "tp": "USO",
+            "rf": "16345",
+            "ds": "GSM - Contestador (Notificación mensaje)",
+            "ci": "2100135",
+            "cn": "CONTES"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10000018",
+            "tp": "USO",
+            "rf": "16346",
+            "ds": "Contestador",
+            "ci": "2100135",
+            "cn": "CONTES"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8800015",
+            "tp": "USO",
+            "rf": "16348",
+            "ds": "GSM - Guías Telefónicas",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10100009",
+            "tp": "USO",
+            "rf": "16349",
+            "ds": "VT Contestador",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7300014",
+            "tp": "USO",
+            "rf": "16350",
+            "ds": "GSM - Llamada internacional",
+            "ci": "2100149",
+            "cn": "INTER"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10500013",
+            "tp": "USO",
+            "rf": "16351",
+            "ds": "SERVICIO CUBA",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900023",
+            "tp": "USO",
+            "rf": "16352",
+            "ds": "GSM - Llamada de Voz a miembro Qtal Vodafone",
+            "ci": "2100165",
+            "cn": "M_QTAL"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11300001",
+            "tp": "USO",
+            "rf": "16353",
+            "ds": "VT GSM - Llamada de Voz a miembro Qtal Vodafone",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10700003",
+            "tp": "USO",
+            "rf": "16354",
+            "ds": "SMS a A2",
+            "ci": "2100188",
+            "cn": "SMS_VF"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9800006",
+            "tp": "USO",
+            "rf": "16355",
+            "ds": "SMS a miembro Qtal Vodafone",
+            "ci": "2100188",
+            "cn": "SMS_VF"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13500001",
+            "tp": "USO",
+            "rf": "16356",
+            "ds": "VT GSM - Llamada internacional.",
+            "ci": "",
+            "cn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8000015",
+            "tp": "USO",
+            "rf": "16357",
+            "ds": "GSM - Llamada de Voz a A2",
+            "ci": "2100134",
+            "cn": "A2"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11800002",
+            "tp": "USO",
+            "rf": "16363",
+            "ds": "VT GSM - Llamada de Voz a A2",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10800008",
+            "tp": "USO",
+            "rf": "16364",
+            "ds": "VT Contestador (Notificación mensaje)",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6800012",
+            "tp": "USO",
+            "rf": "16365",
+            "ds": "SMS - Multi Mensajes a miembros Qtal",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10300009",
+            "tp": "USO",
+            "rf": "16366",
+            "ds": "GSM Líneas 80X, 907X",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900018",
+            "tp": "USO",
+            "rf": "16370",
+            "ds": "SMS Nacionales a Airtel",
+            "ci": "2100188",
+            "cn": "SMS_VF"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7600015",
+            "tp": "USO",
+            "rf": "16371",
+            "ds": "SMS Nacionales a no Airtel",
+            "ci": "2100188",
+            "cn": "SMS_VF"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9900009",
+            "tp": "USO",
+            "rf": "16372",
+            "ds": "SMS Nacionales a Número Especial",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10800009",
+            "tp": "USO",
+            "rf": "16373",
+            "ds": "SMS Internacional",
+            "ci": "2100144",
+            "cn": "GPRS_RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7300012",
+            "tp": "USO",
+            "rf": "16375",
+            "ds": "SMS ENVIADO A TRAVES DE SMSC NO AIRTEL",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "10300010",
+            "tp": "USO",
+            "rf": "16379",
+            "ds": "Consulta saldo",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6700015",
+            "tp": "USO",
+            "rf": "16380",
+            "ds": "SMS Servicios SMS",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9000003",
+            "tp": "USO",
+            "rf": "16383",
+            "ds": "SMS Recordatorio - Alertas",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8900015",
+            "tp": "USO",
+            "rf": "16384",
+            "ds": "SMS Nacionales sin IVA",
+            "ci": "2100188",
+            "cn": "SMS_VF"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6700013",
+            "tp": "USO",
+            "rf": "16386",
+            "ds": "SMS Fijo Nacional",
+            "ci": "",
+            "cn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7600017",
+            "tp": "USO",
+            "rf": "16456",
+            "ds": "GSM : Llamada a Fijo desde zona WO",
+            "ci": "2100153",
+            "cn": "M_F_NP"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7200016",
+            "tp": "USO",
+            "rf": "16505",
+            "ds": "SMS Mi Pais",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8800012",
+            "tp": "USO",
+            "rf": "16506",
+            "ds": "GSM - VT Comunidad Mi Pais",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "8600013",
+            "tp": "USO",
+            "rf": "16508",
+            "ds": "GSM - Comunidad Mi Pais",
+            "ci": "2100159",
+            "cn": "M_M"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11000001",
+            "tp": "USO",
+            "rf": "16591",
+            "ds": "VT R-Out Saliente : World Traveller Internacional",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "6600005",
+            "tp": "USO",
+            "rf": "16638",
+            "ds": "R-out SMS Premium Vodafone World",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "9200006",
+            "tp": "USO",
+            "rf": "16640",
+            "ds": "R-out SMS Vodafone World",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "7900024",
+            "tp": "USO",
+            "rf": "16641",
+            "ds": "R-out MOC SMS Text Info",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "13400001",
+            "tp": "USO",
+            "rf": "16647",
+            "ds": "R-out MTC. Llamadas Recibidas Vodafone World",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14400001",
+            "tp": "USO",
+            "rf": "16648",
+            "ds": "R-Out Saliente : World Traveller Nacional",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11900001",
+            "tp": "USO",
+            "rf": "16650",
+            "ds": "R-Out Saliente : World Traveller Internacional",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "12500001",
+            "tp": "USO",
+            "rf": "16654",
+            "ds": "R-out MOC. Llamadas a móvil. Mark-up",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "14200001",
+            "tp": "USO",
+            "rf": "16656",
+            "ds": "R-out MOC. Llamadas nacionales. Mark-up",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11200001",
+            "tp": "USO",
+            "rf": "16658",
+            "ds": "R-out MOC. Llamada internac. Mark-up",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "11800001",
+            "tp": "USO",
+            "rf": "16659",
+            "ds": "R-out MOC. Premium Rate Service. Mark-up",
+            "ci": "0",
+            "cn": "RESTO"
+          }
+        }
+      ]
+    }
+  }
+}

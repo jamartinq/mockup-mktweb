@@ -1,0 +1,89 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "100",
+            "rf": "ENT",
+            "pc": "5",
+            "bc": "1"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "200",
+            "rf": "GPRS",
+            "pc": "350",
+            "bc": "820"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "300",
+            "rf": "GSM",
+            "pc": "4084",
+            "bc": "4522"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "400",
+            "rf": "ISP",
+            "pc": "9",
+            "bc": "4"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "500",
+            "rf": "MIXTO",
+            "pc": "16",
+            "bc": "902"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "600",
+            "rf": "SAD",
+            "pc": "57",
+            "bc": "239"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "700",
+            "rf": "SAI",
+            "pc": "19",
+            "bc": "13"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "1001",
+            "rf": "ROA",
+            "pc": "0",
+            "bc": "1"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "101001",
+            "rf": "    ",
+            "pc": "0",
+            "bc": "30"
+          }
+        }
+      ]
+    }
+  }
+}

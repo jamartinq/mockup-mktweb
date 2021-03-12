@@ -1,0 +1,57 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "100",
+            "rf": "CNPER",
+            "pc": "225",
+            "bc": "257"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "200",
+            "rf": "CPER",
+            "pc": "549",
+            "bc": "934"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "300",
+            "rf": "DESC",
+            "pc": "1757",
+            "bc": "3469"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "400",
+            "rf": "OCC",
+            "pc": "13",
+            "bc": "110"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "500",
+            "rf": "USO",
+            "pc": "1999",
+            "bc": "382"
+          }
+        }
+      ]
+    }
+  }
+}

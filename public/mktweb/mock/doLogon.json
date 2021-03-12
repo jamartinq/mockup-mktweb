@@ -1,0 +1,29 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "name": "client_emanresu",
+            "value": "jlopezg"
+          }
+        },
+        {
+          "_attributes": {
+            "name": "client_profile",
+            "value": "w_apl_cat_admin"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="webmkt">
+   <!-- log4j PROPERTIES -->
+   <property name="log.appender.default"               value="default" />
+   <property name="log.appender.fallback"              value="fallback" />
+   <property name="log.level"                          value="all" />
+
+   <!-- CASTOR MAPPING PROPERTIES -->
+   <property name="xml.castor.mapping"                 value="mapping.xml" />
+
+   <!-- ZIP WRAPPER PROPERTIES -->
+   <property name="zip.wrapper.entry"                  value="data.xml" />
+
+   <!-- JDBC DATASOURCE PROPERTIES -->
+<!--    <property name="db.jdbc.tdc"                        value="java:comp/env/jdbc/ds_tdc_mktweb" /> -->
+   <property name="db.jdbc.tdc"                        value="ds_tdc_mktweb" />
+   
+
+   <!-- LDAP USER PROFILE MAPPINGS -->
+   <property name="profile.application"                value="CAT" />
+   <property name="profile.readonly"                   value="w_apl_cat_lec" />
+   <property name="profile.readwrite"                  value="w_apl_cat_admin" />
+
+   <property name="response.change.psw"                value="change_psw" />
+   <property name="response.change.url"                value="https://intranet:16001/seginet2/resources/html/cambioClave.html" />
+   <property name="response.change.url.prep"           value="http://webap1pre:8000/seginet2/resources/html/cambioClave.html" />
+   <property name="response.change.url.dev"            value="http://webap1d:7001/seginet2/resources/html/cambioClave.html" />
+
+   <!-- FLASH BACKEND CONNECTION -->
+   <property name="fl.service.dispatcher"              value="/mktweb/ServiceDispatcher" /> 
+   <!-- <property name="fl.service.dispatcher"              value="http://localhost/mktweb/ServiceDispatcher" /> -->
+
+   <!-- FLASH INTERFACE PROPERTIES -->
+   <property name="fl.tabpane.default.tab"             value="2" />
+   <property name="fl.paginator.pagesize"              value="22" />
+   <property name="fl.prd.global.dg.rowcount"          value="22" />
+   <property name="fl.itm.candidate.dg.rowcount"       value="22" />
+   <property name="fl.itm.item.dg.rowcount"            value="22" />
+   <property name="fl.itm.bline.dg.rowcount"           value="5" />
+   <property name="fl.pvt.level.products.dg.rowcount"  value="22" />
+   <property name="fl.pvt.level.items.dg.rowcount"     value="4" />
+    <property name="fl.pvt.chrg.items.dg.rowcount"     value="4" />
+   <property name="fl.pvt.bline.dg.rowcount"           value="4" />
+   <property name="fl.pvt.tslope.dg.rowcount"          value="4" />
+   <property name="fl.pvt.tcontract.dg.rowcount"       value="4" />
+   <property name="fl.pvt.inetw.dg.rowcount"           value="4" />
+   <property name="fl.pre.item.dg.rowcount"            value="22" />
+   <property name="fl.pre.concept.dg.rowcount"         value="22" />
+  
+     <property name="fl.ppaycalltype.dg.rowcount"      value="22" />
+     <property name="fl.ppayprefix.dg.rowcount"        value="22" />
+  
+  
+   
+   <property name="fl.pvt.tclient.dg.rowcount"         value="4" />
+   <property name="fl.pvt.ichnl.dg.rowcount"        value="4" />
+
+   <!-- LOGON SERVICE ACTIONS -->
+   <property name="act.mnt.svc.ping.db"                value="pingDB" />
+
+   <!-- LOGON SERVICE ACTIONS -->
+   <property name="act.lgn.svc.do.logon"               value="doLogon" />
+   <property name="act.lgn.svc.do.logout"              value="doLogout" />
+
+   <!-- PRODUCT SERVICE ACTIONS -->
+   <property name="act.prd.svc.get.btypes"             value="getBTypes" />
+   <property name="act.prd.svc.new.btype"              value="newBType" />
+   <property name="act.prd.svc.del.btype"              value="delBType" />
+   <property name="act.prd.svc.get.btype.bundles"      value="getBTypeBundles" />
+   <property name="act.prd.svc.get.bundles"            value="getBundles" />
+   <property name="act.prd.svc.new.bundle"             value="newBundle" />
+   <property name="act.prd.svc.del.bundle"             value="delBundle" />
+   <property name="act.prd.svc.mod.bundle"             value="modBundle" />
+   <property name="act.prd.svc.set.bundle.btype"       value="setBundleBType" />
+   <property name="act.prd.svc.rem.bundle.btype"       value="remBundleBType" />
+   <property name="act.prd.svc.get.bundle.products"    value="getBundleProducts" />
+   <property name="act.prd.svc.get.bundle.ptypes"      value="getBundlePTypes" />
+   <property name="act.prd.svc.get.ptypes"             value="getPTypes" />
+   <property name="act.prd.svc.new.ptype"              value="newPType" />
+   <property name="act.prd.svc.del.ptype"              value="delPType" />
+   <property name="act.prd.svc.set.ptype.bundle"       value="setPTypeBundle" />
+   <property name="act.prd.svc.rem.ptype.bundle"       value="remPTypeBundle" />
+   <property name="act.prd.svc.get.ptype.products"     value="getPTypeProducts" />
+   <property name="act.prd.svc.get.products"           value="getProducts" />
+   <property name="act.prd.svc.new.product"            value="newProduct" />
+   <property name="act.prd.svc.del.product"            value="delProduct" />
+   <property name="act.prd.svc.mod.product"            value="modProduct" />
+   <property name="act.prd.svc.set.product.ptype"      value="setProductPType" />
+   <property name="act.prd.svc.rem.product.ptype"      value="remProductPType" />
+   <property name="act.prd.svc.set.product.bundle"     value="setProductBundle" />
+   <property name="act.prd.svc.rem.product.bundle"     value="remProductBundle" />
+   <property name="act.prd.svc.get.product.elements"   value="getProductElements" />
+   <property name="act.prd.svc.get.product.etypes"     value="getProductETypes" />
+   <property name="act.prd.svc.get.etypes"             value="getETypes" />
+   <property name="act.prd.svc.new.etype"              value="newEType" />
+   <property name="act.prd.svc.del.etype"              value="delEType" />
+   <property name="act.prd.svc.set.etype.product"      value="setETypeProduct" />
+   <property name="act.prd.svc.rem.etype.product"      value="remETypeProduct" />
+   <property name="act.prd.svc.get.etype.elements"     value="getETypeElements" />
+   <property name="act.prd.svc.get.elements"           value="getElements" />
+   <property name="act.prd.svc.set.element.etype"      value="setElementEType" />
+   <property name="act.prd.svc.rem.element.etype"      value="remElementEType" />
+   <property name="act.prd.svc.set.element.product"    value="setElementProduct" />
+   <property name="act.prd.svc.rem.element.product"    value="remElementProduct" />
+   <property name="act.prd.svc.get.slope.types"        value="getSTypes" />
+   <property name="act.prd.svc.new.slope.type"         value="newSType" />
+   <property name="act.prd.svc.mod.slope.type"         value="modSType" />
+   <property name="act.prd.svc.del.slope.type"         value="delSType" />
+   <property name="act.prd.svc.get.contract.types"     value="getCTypes" />
+   <property name="act.prd.svc.new.contract.type"      value="newCType" />
+   <property name="act.prd.svc.mod.contract.type"      value="modCType" />
+   <property name="act.prd.svc.del.contract.type"      value="delCType" />
+   <property name="act.prd.svc.get.client.types"       value="getLTypes" />
+   <property name="act.prd.svc.new.client.type"        value="newLType" />
+   <property name="act.prd.svc.mod.client.type"        value="modLType" />
+   <property name="act.prd.svc.del.client.type"        value="delLType" />
+   
+   <property name="act.prd.svc.get.level.types"     value="getLevelTypes" />
+   <property name="act.prd.svc.new.level.types"     value="newLevelType" />
+   <property name="act.prd.svc.mod.level.type"      value="setLevelType" />
+   <property name="act.prd.svc.del.level.type"      value="delLevelType" />
+   
+   
+   <!-- ITEM SERVICE ACTIONS -->
+   <property name="act.itm.svc.get.candidates"         value="getCandidates" />	
+   <property name="act.itm.svc.new.candidate"          value="newCandidate" />
+   <property name="act.itm.svc.mod.candidate"          value="modCandidate" />
+   <property name="act.itm.svc.del.candidate"          value="delCandidate" />
+   <property name="act.itm.svc.get.items"              value="getItems" />
+   <property name="act.itm.svc.new.items"              value="newItems" />
+   <property name="act.itm.svc.new.item"               value="newItem" />
+   <property name="act.itm.svc.mod.item"               value="modItem" />
+   <property name="act.itm.svc.del.item"               value="delItem" />
+   <property name="act.itm.svc.get.tables"             value="getTables" />
+   <property name="act.itm.svc.get.blines"             value="getBLines" />
+   <property name="act.itm.svc.new.bline"              value="newBLine" />
+   <property name="act.itm.svc.mod.bline"              value="modBLine" />
+   <property name="act.itm.svc.del.bline"              value="delBLine" />
+   <property name="act.itm.svc.get.categories"         value="getCategories" />
+   <property name="act.itm.svc.new.category"           value="newCategory" />
+   <property name="act.itm.svc.mod.category"           value="modCategory" />
+   <property name="act.itm.svc.del.category"           value="delCategory" />
+   
+   <property name="act.itm.svc.get.level.types"     value="getItemLevelTypes" />
+   
+   <property name="act.itm.svc.new.level.types"     value="newItemLevelTypes" />
+   <property name="act.itm.svc.mod.level.types"     value="modItemLevelTypes" />
+   <property name="act.itm.svc.del.level.types"     value="delItemLevelTypes" />
+ 
+   
+   <property name="act.itm.svc.get.chrg.types"     value="getItemChrgTypes" />
+   <property name="act.itm.svc.new.chrg.types"     value="newItemChrgTypes" />
+   <property name="act.itm.svc.mod.chrg.types"     value="modItemChrgTypes" />
+   <property name="act.itm.svc.del.chrg.types"     value="delItemChrgTypes" />
+   
+   <property name="act.itm.svc.get.chnl.types"     value="getItemChnlTypes" />
+   <property name="act.itm.svc.new.chnl.types"     value="newItemChnlTypes" />
+   <property name="act.itm.svc.mod.chnl.types"     value="modItemChnlTypes" />
+   <property name="act.itm.svc.del.chnl.types"     value="delItemChnlTypes" />
+   
+   <property name="act.itm.svc.get.corr.types"     value="getItemCorrTypes" />
+   <property name="act.itm.svc.new.corr.types"     value="newItemCorrTypes" />
+   <property name="act.itm.svc.mod.corr.types"     value="modItemCorrTypes" />
+   <property name="act.itm.svc.del.corr.types"     value="delItemCorrTypes" />
+   
+   <property name="act.itm.svc.get.netw.types"     value="getItemNetwTypes" />
+   <property name="act.itm.svc.new.netw.types"     value="newItemNetwTypes" />
+   <property name="act.itm.svc.mod.netw.types"     value="modItemNetwTypes" />
+   <property name="act.itm.svc.del.netw.types"     value="delItemNetwTypes" />
+   
+   
+   <property name="act.itm.svc.get.chnl.types"     value="getItemChnlTypes" />
+   <property name="act.itm.svc.get.corr.types"     value="getItemCorrTypes" />
+
+
+   <!-- PREPAY SERVICE ACTIONS -->
+   <property name="act.pre.svc.get.ppay.concepts"   value="getPPayConcepts" />	
+   <property name="act.pre.svc.new.ppay.concept"    value="newPPayConcept" />
+   <property name="act.pre.svc.mod.ppay.concept"    value="modPPayConcept" />
+   <property name="act.pre.svc.del.ppay.concept"    value="delPPayConcept" />
+
+   <property name="act.pre.svc.get.ppay.items"         value="getPPayItems" />	
+   <property name="act.pre.svc.get.ppay.concept.items" value="getPPayConceptItems" />
+   <property name="act.pre.svc.set.ppay.items.concept" value="setPPayItemsConcept" />
+   <property name="act.pre.svc.rem.ppay.items.concept" value="remPPayItemsConcept" />
+
+   <!-- PREPAY prefix and calltype SERVICE ACTIONS -->
+  
+   <property name="act.pre.svc.get.ppayprefixes"     value="getPPayPrefixes" />
+    
+   <property name="act.pre.svc.get.ppayprefixes"     value="getPPayPrefixes" />
+   <property name="act.pre.svc.new.ppayprefixes"     value="newPPayPrefixes" />
+   <property name="act.pre.svc.mod.ppayprefixes"     value="modPPayPrefixes" />
+   <property name="act.pre.svc.del.ppayprefixes"     value="delPPayPrefixes" />
+
+   <property name="act.pre.svc.get.ppaycalltypes"     value="getPPayCallTypes" />
+    
+   <property name="act.pre.svc.get.ppaycalltypes"     value="getPPayCallTypes" />
+   <property name="act.pre.svc.new.ppaycalltypes"     value="newPPayCallTypes" />
+   <property name="act.pre.svc.mod.ppaycalltypes"     value="modPPayCallTypes" />
+   <property name="act.pre.svc.del.ppaycalltypes"     value="delPPayCallTypes" />
+
+   
+
+  	
+   <!-- SERVICE STATUS CODES -->
+   <property name="svc.status.ok"                      value="0" />
+   <property name="svc.status.ko"                      value="-1" />
+   <property name="svc.status.relogin"                 value="100" />
+   <property name="svc.status.pswrset"                 value="200" />
+
+   <!-- REQUEST FIELDS -->
+   <property name="var.client.action"                  value="action" />
+
+   <property name="var.client.profile"                 value="client_profile" />
+   <property name="var.client.username"                value="client_emanresu" />
+   <property name="var.client.password"                value="client_drowssap" />
+
+   <property name="var.service.message"                value="message" />
+   <property name="var.service.error"                  value="error" />
+
+   <property name="var.prd.id"                         value="prd_id" />
+   <property name="var.prd.pid"  			             value="prd_pid" />
+   <property name="var.prd.name"                       value="prd_name" />
+   <property name="var.prd.desc"                       value="prd_desc" />
+   <property name="var.prd.cmnt"                       value="prd_cmnt" />
+   <property name="var.prd.from"                       value="prd_from" />
+   <property name="var.prd.till"                       value="prd_till" />
+   <property name="var.prd.tid"                        value="prd_tid" />
+   <property name="var.prd.sid"                        value="prd_sid" />
+   <property name="var.prd.sname"                      value="prd_sname" />
+   <property name="var.prd.cid"                        value="prd_cid" />
+   <property name="var.prd.cname"                      value="prd_cname" />
+   <property name="var.prd.lid"                        value="prd_lid" />
+   <property name="var.prd.lname"                      value="prd_lname" />
+   <property name="var.prd.arr.len"                    value="prd_arr_len" />
+   <property name="var.prd.idx.ref"  			          value="prd_idx_ref" />
+
+   <property name="var.itm.id"                         value="itm_id" />
+   <property name="var.itm.id.arr.len"                 value="itm_id_arr_len" />
+   <property name="var.itm.name"  		   			    value="itm_name" />
+   <property name="var.itm.name.arr.len"               value="itm_name_arr_len" />
+   <property name="var.itm.desc"  		   			    value="itm_desc" />
+   <property name="var.itm.desc.arr.len"               value="itm_desc_arr_len" />
+   <property name="var.itm.level"  		   			    value="itm_levl" />
+   <property name="var.itm.charge"  		   		    value="itm_chrg" />
+   <property name="var.itm.cid"  		       		    value="itm_chnl" />
+   <property name="var.itm.nid"  		       		    value="itm_netw" />
+   <property name="var.itm.rid"  		       		    value="itm_corr" />
+   <property name="var.itm.cat.id"                     value="itm_cat_id" />
+   <property name="var.itm.cat.pid"                    value="itm_cat_pid" />
+   <property name="var.itm.cat.name"                   value="itm_cat_name" />
+   <property name="var.itm.tab.id"                     value="itm_tab_id" />
+   <property name="var.itm.tab.arr.len"                value="itm_tab_arr_len" />
+   <property name="var.itm.lin.id"                     value="itm_lin_id" />
+   <property name="var.itm.lin.name"                   value="itm_lin_name" />
+   <property name="var.itm.lin.desc"                   value="itm_lin_desc" />
+   <property name="var.itm.lin.pct"                    value="itm_lin_pct" />
+   <property name="var.itm.lin.arr.len"                value="itm_lin_arr_len" />
+ 
+ 
+ 	<!-- prefix y calltype-->
+   <property name="var.pre.prefix.id"                  		value="pre_prefix_id" />
+   <property name="var.pre.prefix.prefijo.pr"   		value="pre_prefix_prefijo_pr" />
+   <property name="var.pre.prefix.tipo"         		value="pre_prefix_tipo" />
+   <property name="var.pre.prefix.destino"      		value="pre_prefix_destino" />
+   <property name="var.pre.prefix.y.prod"       		value="pre_prefix_y_prod" />
+   <property name="var.pre.prefix.z.prod"       		value="pre_prefix_z_prod" />
+   <property name="var.pre.prefix.voz.videotel" 		value="pre_prefix_voz_videotel" />
+   <property name="var.pre.prefix.desc.producto"		value="pre_prefix_desc_producto" />
+   
+   <property name="var.pre.calltype.id"                  		value="pre_calltype_id" />
+   <property name="var.pre.calltype.y.prod"       		value="pre_calltype_y_prod" />
+   <property name="var.pre.calltype.z.prod"       		value="pre_calltype_z_prod" />
+   
+   <property name="var.pre.cid"                        value="pre_cid" />
+   <property name="var.pre.iid"                        value="pre_iid" />
+   <property name="var.pre.name"                       value="pre_name" />
+   <property name="var.pre.desc"                       value="pre_desc" />
+   <property name="var.pre.iid.arr.len"                value="pre_iid_arr_len" />
+
+
+   <!-- TABLE DEFINITIONS -->
+   <property name="tbl.prd.bundle.type"                value="PRD_BUNDLE_TIPO" />
+   <property name="col.prd.bundle.type.id"             value="ID" />
+   <property name="col.prd.bundle.type.name"           value="NOMBRE" />
+   <property name="col.prd.bundle.type.desc"           value="DESCR" />
+   <property name="col.prd.bundle.type.fdel"           value="FX_BRRDO" />
+   <property name="col.prd.bundle.type.from"           value="FX_DESDE" />
+   <property name="col.prd.bundle.type.till"           value="FX_HASTA" />
+   <property name="col.prd.bundle.type.user_mod"       value="USER_MOD" />
+   <property name="col.prd.bundle.type.fx_mod"         value="FX_MOD" />
+
+
+   <property name="tbl.prd.bundle"                     value="PRD_BUNDLE" />
+   <property name="col.prd.bundle.id"                  value="ID" />
+   <property name="col.prd.bundle.name"                value="NOMBRE" />
+   <property name="col.prd.bundle.desc"                value="DESCR" />
+   <property name="col.prd.bundle.cmnt"                value="COMENTARIOS" />
+   <property name="col.prd.bundle.fdel"                value="FX_BRRDO" />
+   <property name="col.prd.bundle.from"                value="FX_DESDE" />
+   <property name="col.prd.bundle.till"                value="FX_HASTA" />
+   <property name="col.prd.bundle.tid"                 value="ID_TIPO" />  
+   <property name="col.prd.bundle.sid"                 value="ID_T_VERT" /> 
+   <property name="col.prd.bundle.cid"                 value="ID_T_CNTR" />
+   <property name="col.prd.bundle.lid"                 value="ID_T_CLNT" />
+   <property name="col.prd.bundle.lvlid"               value="ID_NIVEL" />
+   <property name="col.prd.bundle.user_mod"            value="USER_MOD" />
+   <property name="col.prd.bundle.fx_mod"              value="FX_MOD" />
+
+
+   <property name="tbl.prd.bundle.product.types"       value="PRD_BNDL_PTIPO" />
+   <property name="col.prd.bundle.product.types.bid"   value="ID_BUNDLE" />
+   <property name="col.prd.bundle.product.types.tid"   value="ID_TIPO" />
+   <property name="col.prd.bundle.product.types.fdel"  value="FX_BRRDO" />
+   <property name="col.prd.bundle.product.types.from"  value="FX_DESDE" />
+   <property name="col.prd.bundle.product.types.till"  value="FX_HASTA" />
+   <property name="col.prd.bundle.product.types.user_mod"  value="USER_MOD" />
+   <property name="col.prd.bundle.product.types.fx_mod"  value="FX_MOD" />
+   
+   <property name="tbl.prd.bundle.products"            value="PRD_BNDL_PROD" />
+   <property name="col.prd.bundle.products.bid"        value="ID_BUNDLE" />
+   <property name="col.prd.bundle.products.pid"        value="ID_PRODUCTO" />
+   <property name="col.prd.bundle.products.fdel"       value="FX_BRRDO" />
+   <property name="col.prd.bundle.products.from"       value="FX_DESDE" />
+   <property name="col.prd.bundle.products.till"       value="FX_HASTA" />
+   <property name="col.prd.bundle.products.user_mod"   value="USER_MOD" />
+   <property name="col.prd.bundle.products.fx_mod"     value="FX_MOD" />
+
+   
+   <property name="tbl.prd.product.type"               value="PRD_PRODUCTO_TIPO" />
+   <property name="col.prd.product.type.id"            value="ID" />
+   <property name="col.prd.product.type.name"          value="NOMBRE" />
+   <property name="col.prd.product.type.desc"          value="DESCR" />
+   <property name="col.prd.product.type.fdel"          value="FX_BRRDO" />
+   <property name="col.prd.product.type.from"          value="FX_DESDE" />
+   <property name="col.prd.product.type.till"          value="FX_HASTA" />
+   <property name="col.prd.product.type.user_mod"      value="USER_MOD" />
+   <property name="col.prd.product.type.fx_mod"        value="FX_MOD" />
+   
+   
+
+   <property name="tbl.prd.product"                    value="PRD_PRODUCTO" />
+   <property name="col.prd.product.id"                 value="ID" />
+   <property name="col.prd.product.name"               value="NOMBRE" />
+   <property name="col.prd.product.desc"               value="DESCR" />
+   <property name="col.prd.product.cmnt"               value="COMENTARIOS" />
+   <property name="col.prd.product.fdel"               value="FX_BRRDO" />
+   <property name="col.prd.product.from"               value="FX_DESDE" />
+   <property name="col.prd.product.till"               value="FX_HASTA" />
+   <property name="col.prd.product.tid"                value="ID_TIPO" /> 
+   <property name="col.prd.product.sid"                value="ID_T_VERT" /> 
+   <property name="col.prd.product.cid"                value="ID_T_CNTR" />
+   <property name="col.prd.product.lid"                value="ID_T_CLNT" />
+   <property name="col.prd.product.tnvl"               value="ID_NIVEL" />
+   <property name="col.prd.product.user_mod"           value="USER_MOD" />
+   <property name="col.prd.product.fx_mod"             value="FX_MOD" />
+   
+   <property name="tbl.prd.nivel.type"                 value="PRD_NIVEL_TIPO" />
+   <property name="col.prd.nivel.type.id"              value="ID" />
+   <property name="col.prd.nivel.type.desc"            value="DESCR" />
+   <property name="col.prd.nivel.type.fdel"            value="FX_BRRDO" />
+   <property name="col.prd.nivel.type.user_mod"        value="USER_MOD" />
+   <property name="col.prd.nivel.type.fx_mod"          value="FX_MOD" />
+   
+   <property name="tbl.prd.corr.type"                  value="PRD_CORRIDOR_TIPO" />
+   <property name="col.prd.corr.type.id"               value="ID" />
+   <property name="col.prd.corr.type.desc"             value="DESCR" />
+				 
+   <property name="tbl.prd.product.element.types"      value="PRD_PROD_ETIPO" />
+   <property name="col.prd.product.element.types.pid"  value="ID_PRODUCTO" />
+   <property name="col.prd.product.element.types.tid"  value="ID_TIPO" />
+   <property name="col.prd.product.element.types.fdel" value="FX_BRRDO" />
+   <property name="col.prd.product.element.types.from" value="FX_DESDE" />
+   <property name="col.prd.product.element.types.till" value="FX_HASTA" />
+   <property name="col.prd.product.element.types.user_mod" value="USER_MOD" />
+   <property name="col.prd.product.element.types.fx_mod" value="FX_MOD" />
+   
+   
+   <property name="tbl.prd.product.elements"           value="PRD_PROD_ELEM" />
+   <property name="col.prd.product.elements.pid"       value="ID_PRODUCTO" />
+   <property name="col.prd.product.elements.eid"       value="ID_ELEMENTO" />
+   <property name="col.prd.product.elements.fdel"      value="FX_BRRDO" />
+   <property name="col.prd.product.elements.from"      value="FX_DESDE" />
+   <property name="col.prd.product.elements.till"      value="FX_HASTA" />
+   <property name="col.prd.product.elements.user_mod"  value="USER_MOD" />
+   <property name="col.prd.product.elements.fx_mod"    value="FX_MOD" />
+
+   <property name="tbl.prd.element.type"               value="PRD_ELEMENTO_TIPO" />
+   <property name="col.prd.element.type.id"            value="ID" />
+   <property name="col.prd.element.type.name"          value="NOMBRE" />
+   <property name="col.prd.element.type.desc"          value="DESCR" />
+   <property name="col.prd.element.type.fdel"          value="FX_BRRDO" />
+   <property name="col.prd.element.type.from"          value="FX_DESDE" />
+   <property name="col.prd.element.type.till"          value="FX_HASTA" />
+
+   <property name="tbl.prd.element"                    value="PRD_ELEMENTO" />
+   <property name="col.prd.element.id"                 value="ID" />
+   <property name="col.prd.element.name"               value="NOMBRE" />
+   <property name="col.prd.element.desc"               value="DESCR" />
+   <property name="col.prd.element.fdel"               value="FX_BRRDO" />
+   <property name="col.prd.element.from"               value="FX_DESDE" />
+   <property name="col.prd.element.till"               value="FX_HASTA" />
+   <property name="col.prd.element.tid"                value="ID_TIPO" />
+   <property name="col.prd.element.user_mod"           value="USER_MOD" />
+   <property name="col.prd.element.fx_mod"             value="FX_MOD" />
+
+   <property name="tbl.prd.slope.type"  			   value="PRD_VERTIENTE_TIPO" />
+   <property name="col.prd.slope.type.id"  		       value="ID" />
+   <property name="col.prd.slope.type.name"            value="DESCR" />
+   <property name="col.prd.slope.type.fdel"            value="FX_BRRDO" />
+   <property name="col.prd.slope.type.user_mod"        value="USER_MOD" />
+   <property name="col.prd.slope.type.fx_mod"          value="FX_MOD" />
+
+   <property name="tbl.prd.contract.type"  			   value="PRD_CONTRATO_TIPO" />
+   <property name="col.prd.contract.type.id"  		   value="ID" />
+   <property name="col.prd.contract.type.name"  	   value="DESCR" />
+   <property name="col.prd.contract.type.fdel"  	   value="FX_BRRDO" />
+   <property name="col.prd.contract.type.user_mod"     value="USER_MOD" />
+   <property name="col.prd.contract.type.fx_mod"  	   value="FX_MOD" />
+
+   <property name="tbl.prd.client.type"  		       value="PRD_CLIENTE_TIPO" />
+   <property name="col.prd.client.type.id"  		   value="ID" />
+   <property name="col.prd.client.type.name"  		   value="DESCR" />
+   <property name="col.prd.client.type.fdel"  		   value="FX_BRRDO" />
+   <property name="col.prd.client.type.user_mod"  	   value="USER_MOD" />
+   <property name="col.prd.client.type.fx_mod"  	   value="FX_MOD" />
+
+
+   <property name="tbl.itm.candidate"  		           value="ITM_CANDIDATE" />		
+   <property name="col.itm.candidate.id"  		       value="ID" />
+   <property name="col.itm.candidate.name"  		   value="NOMBRE" />
+   <property name="col.itm.candidate.desc"  		   value="DESCR" />
+   <property name="col.itm.candidate.level"  		   value="ID_NIVEL" />
+   <property name="col.itm.candidate.charge"  		   value="ID_CARGO" />
+   <property name="col.itm.candidate.cid"  		       value="ID_CANAL" />
+   <property name="col.itm.candidate.nid"  		       value="ID_RED" />
+   <property name="col.itm.candidate.rid"  		       value="ID_CORRIDOR" />
+   <property name="col.itm.candidate.from"  		   value="FX_DESDE" />
+   <property name="col.itm.candidate.till"  		   value="FX_HASTA" />
+   <property name="col.itm.candidate.fdel"  		   value="FX_BRRDO" />
+   <property name="col.itm.candidate.user_mod"  	   value="USER_MOD" />
+   <property name="col.itm.candidate.fx_mod"  		   value="FX_MOD" />
+   <property name="col.itm.candidate.nvl"  		   	   value="ID_NIVEL" />  
+   <property name="col.itm.candidate.chrg"  		   value="ID_CARGO" />  
+   <property name="col.itm.candidate.chnl"  		   value="ID_CANAL" />
+   <property name="col.itm.candidate.netw"  		   value="ID_RED" />
+   <property name="col.itm.candidate.corr"  		   value="ID_CORRIDOR" />
+
+   <property name="tbl.itm.item"  		               value="ITM_ITEM" />
+   <property name="col.itm.item.id"  		           value="ID" />
+   <property name="col.itm.item.tid"  		           value="ID_CATEGORIA" />
+   <property name="col.itm.item.name"  		           value="NOMBRE" />
+   <property name="col.itm.item.desc"  		           value="DESCR" />
+   <property name="col.itm.item.level"  		       value="ID_NIVEL" />
+   <property name="col.itm.item.charge"  		       value="ID_CARGO" />
+   <property name="col.itm.item.cid"  		           value="ID_CANAL" />
+   <property name="col.itm.item.nid"  		           value="ID_RED" />
+   <property name="col.itm.item.rid"  		           value="ID_CORRIDOR" />
+   <property name="col.itm.item.from"  		           value="FX_DESDE" />
+   <property name="col.itm.item.fdel"  		           value="FX_BRRDO" />
+   <property name="col.itm.item.user_mod"  		       value="USER_MOD" />
+   <property name="col.itm.item.fx_mod"  		       value="FX_MOD" />
+   <property name="col.itm.item.nvl"  		   	   	   value="ID_NIVEL" />
+   <property name="col.itm.item.chrg"  		   	   	   value="ID_CARGO" />  
+   <property name="col.itm.item.chnl"  		   	   	   value="ID_CANAL" />
+   <property name="col.itm.item.netw"  		   	   	   value="ID_RED" />
+   <property name="col.itm.item.corr"  		   	   	   value="ID_CORRIDOR" />
+
+   <property name="tbl.itm.category"  		           value="ITM_CATEGORIA" />
+   <property name="col.itm.category.id"  		       value="ID" />
+   <property name="col.itm.category.pid"  		       value="PID" />
+   <property name="col.itm.category.name"  		       value="NOMBRE" />
+   <property name="col.itm.category.fact"  		       value="CAMPO_FACTURACION" />
+   <property name="col.itm.category.cals"  		       value="CAMPO_LLAMADAS" />
+   <property name="col.itm.category.mins"  		       value="CAMPO_MINUTOS" />
+   <property name="col.itm.category.user_mod"  		   value="USER_MOD" />
+   <property name="col.itm.category.fx_mod"  		   value="FX_MOD" />
+   <property name="col.itm.category.fdel"  		  	   value="FX_BRRDO" />
+   
+   <property name="tbl.itm.table"  		               value="ITM_TABLA" />
+   <property name="col.itm.table.id"  		           value="ID" />
+   <property name="col.itm.table.name"  		       value="NOMBRE" />
+
+   <property name="tbl.itm.item.tables"  		       value="ITM_ITEM_TBLA" />
+   <property name="col.itm.item.tables.iid"  		   value="ID_ITEM" />
+   <property name="col.itm.item.tables.tid"  		   value="ID_TABLA" />
+   <property name="col.itm.item.tables.from"  		   value="FX_DESDE" />
+   <property name="col.itm.item.tables.fdel"  		   value="FX_BRRDO" />
+
+   <property name="tbl.item.bline"  		           value="ITM_LNEGOCIO" />
+   <property name="col.item.bline.id"  		           value="ID" />
+   <property name="col.item.bline.name"  		       value="NOMBRE" />
+   <property name="col.item.bline.desc"  		       value="DESCR" />
+   <property name="col.item.bline.user_mod"  		   value="USER_MOD" />
+   <property name="col.item.bline.fx_mod"  		       value="FX_MOD" />
+   <property name="col.item.bline.fdel"  		       value="FX_BRRDO" />
+   
+   
+	
+   <property name="tbl.itm.item.blines"  		       value="ITM_ITEM_LNEG" />
+   <property name="col.itm.item.blines.iid"  		   value="ID_ITEM" />
+   <property name="col.itm.item.blines.lid"  		   value="ID_LINEA" />
+   <property name="col.itm.item.blines.pct"  		   value="POR_CIEN" />
+   <property name="col.itm.item.blines.from"  		   value="FX_DESDE" />
+   <property name="col.itm.item.blines.fdel"  		   value="FX_BRRDO" />
+   
+   <property name="tbl.itm.nivel.type"                 value="ITM_NIVEL_TIPO" />
+   <property name="col.itm.nivel.type.id"              value="ID" />
+   <property name="col.itm.nivel.type.desc"            value="DESCR" />
+   <property name="col.itm.nivel.type.fdel"            value="FX_BRRDO" />
+   <property name="col.itm.nivel.type.user_mod"        value="USER_MOD" />
+   <property name="col.itm.nivel.type.fx_mod"          value="FX_MOD" />
+   
+	<property name="tbl.itm.chrg.type"                value="ITM_CARGO_TIPO" />
+   <property name="col.itm.chrg.type.id"              value="ID" />
+   <property name="col.itm.chrg.type.desc"            value="DESCR" />
+   <property name="col.itm.chrg.type.fdel"            value="FX_BRRDO" />
+   <property name="col.itm.chrg.type.user_mod"        value="USER_MOD" />
+   <property name="col.itm.chrg.type.fx_mod"          value="FX_MOD" />
+   
+   <property name="tbl.itm.chnl.type"                 value="ITM_CANAL_TIPO" />
+   <property name="col.itm.chnl.type.id"              value="ID" />
+   <property name="col.itm.chnl.type.desc"            value="DESCR" />
+   <property name="col.itm.chnl.type.fdel"            value="FX_BRRDO" />
+   <property name="col.itm.chnl.type.user_mod"        value="USER_MOD" />
+   <property name="col.itm.chnl.type.fx_mod"          value="FX_MOD" />
+  
+   <property name="tbl.itm.netw.type"                 value="ITM_RED_TIPO" />
+   <property name="col.itm.netw.type.id"              value="ID" />
+   <property name="col.itm.netw.type.desc"            value="DESCR" />
+   <property name="col.itm.netw.type.fdel"            value="FX_BRRDO" />
+   <property name="col.itm.netw.type.user_mod"        value="USER_MOD" />
+   <property name="col.itm.netw.type.fx_mod"          value="FX_MOD" />
+
+   <property name="tbl.itm.corr.type"                 value="ITM_CORRIDOR_TIPO" />
+   <property name="col.itm.corr.type.id"              value="ID" />
+   <property name="col.itm.corr.type.desc"            value="DESCR" />
+   <property name="col.itm.corr.type.fdel"            value="FX_BRRDO" />
+   <property name="col.itm.corr.type.user_mod"        value="USER_MOD" />
+   <property name="col.itm.corr.type.fx_mod"          value="FX_MOD" />
+
+   <property name="tbl.pre.concept"					value="PRE_CONCEPT" />
+   <property name="col.pre.concept.id"				value="ID" />
+   <property name="col.pre.concept.name"			value="NOMBRE" />
+   <property name="col.pre.concept.desc"			value="DESCR" />
+   <property name="col.pre.concept.from"			value="FX_DESDE" />
+   <property name="col.pre.concept.fdel"			value="FX_BRRDO" />
+   <property name="col.pre.concept.user_mod"		value="USER_MOD" />
+   <property name="col.pre.concept.fx_mod"			value="FX_MOD" />
+
+   <property name="tbl.pre.item"					value="PRE_ITEM" />
+   <property name="col.pre.item.id"					value="ID" />
+   <property name="col.pre.item.cid"				value="ID_CONCEPTO" />
+   <property name="col.pre.item.type"				value="TIPO" />
+   <property name="col.pre.item.name"				value="NOMBRE" />
+   <property name="col.pre.item.desc"				value="DESCR" />
+   <property name="col.pre.item.from"				value="FX_DESDE" />
+   <property name="col.pre.item.fdel"				value="FX_BRRDO" />
+   <property name="col.pre.item.user_mod"			value="USER_MOD" />
+   <property name="col.pre.item.fx_mod"				value="FX_MOD" />
+
+   <property name="tbl.pre.ccpt.item"				value="PRE_CCPT_ITEM" />
+   <property name="col.pre.ccpt.item.cid"			value="ID_CONCEPTO" />
+   <property name="col.pre.ccpt.item.iid"			value="ID_ITEM" />
+   <property name="col.pre.ccpt.item.ftil"			value="FX_HASTA" />
+   <property name="col.pre.ccpt.item.fcic"			value="FX_CICLO" />
+
+ 	<property name="tbl.pre.ppaycalltype"                 value="PRE_CALLTYPE" />
+   <property name="col.pre.ppaycalltype.id"              	value="ID" />
+   <property name="col.pre.ppaycalltype.y.prod"           value="CALLTYPE" />
+   <property name="col.pre.ppaycalltype.z.prod"           value="DESCRIPCION" />
+   <property name="col.pre.ppaycalltype.fdel"            	value="FX_BRRDO" />
+   <property name="col.pre.ppaycalltype.user_mod"        	value="USER_MOD" />
+   <property name="col.pre.ppaycalltype.fx_mod"          	value="FX_MOD" />
+   
+	<property name="tbl.pre.ppayprefix"                 value="PRE_PREFIX" />
+   <property name="col.pre.ppayprefix.id"              	value="ID" />
+   <property name="col.pre.ppayprefix.prefijo.pr"       value="PREFIJO_PR" />
+   <property name="col.pre.ppayprefix.tipo"            	value="TIPO" />
+   <property name="col.pre.ppayprefix.destino"          value="DESTINO" />
+   <property name="col.pre.ppayprefix.y.prod"           value="Y_PROD" />
+   <property name="col.pre.ppayprefix.z.prod"           value="Z_PROD" />
+   <property name="col.pre.ppayprefix.voz.videotel"     value="VOZ_VIDEOTEL" />
+   <property name="col.pre.ppayprefix.desc.producto"    value="DESC_PRODUCTO" />
+   <property name="col.pre.ppayprefix.fdel"            	value="FX_BRRDO" />
+   <property name="col.pre.ppayprefix.user_mod"        	value="USER_MOD" />
+   <property name="col.pre.ppayprefix.fx_mod"          	value="FX_MOD" />
+   
+
+    <!-- SEARCH FIELDS MAPPINGS-->
+   <property name="srch.fld.all"					value="*" />
+   <property name="srch.lbl.all"					value="TODOS" />
+
+   <property name="srch.fld.item.ref"				value="rf" />
+   <property name="srch.lbl.item.ref"				value="Código" />
+   <property name="srch.fld.item.desc"				value="ds" />
+   <property name="srch.lbl.item.desc"				value="Descripción" />
+   <property name="srch.fld.item.lvl"				value="lv" />
+   <property name="srch.lbl.item.lvl"				value="Nivel" />
+   <property name="srch.fld.item.chrg"				value="ct" />
+   <property name="srch.lbl.item.chrg"				value="Cargo" />
+   <property name="srch.fld.item.chnl"				value="ci" />
+   <property name="srch.lbl.item.chnl"				value="Canal" />
+   <property name="srch.fld.item.netw"				value="ni" />
+   <property name="srch.lbl.item.netw"				value="Red" />
+   <property name="srch.fld.item.crrd"				value="ri" />
+   <property name="srch.lbl.item.crrd"				value="Corridor" />
+   <property name="srch.fld.item.cat"				value="tn" />
+   <property name="srch.lbl.item.cat"				value="Categoria" />
+   <property name="srch.fld.item.sub"				value="sn" />
+   <property name="srch.lbl.item.sub"				value="Subcategoria" />
+   
+   <property name="srch.fld.candidate.ref"			value="rf" />
+   <property name="srch.lbl.candidate.ref"			value="Código" />
+   <property name="srch.fld.candidate.desc"			value="ds" />
+   <property name="srch.lbl.candidate.desc"			value="Descripción" />
+   <property name="srch.fld.candidate.lvl"			value="lv" />
+   <property name="srch.lbl.candidate.lvl"			value="Nivel" />
+   <property name="srch.fld.candidate.chrg"			value="ct" />
+   <property name="srch.lbl.candidate.chrg"			value="Cargo" />
+   <property name="srch.fld.candidate.chnl"			value="ci" />
+   <property name="srch.lbl.candidate.chnl"			value="Canal" />
+   <property name="srch.fld.candidate.netw"			value="ni" />
+   <property name="srch.lbl.candidate.netw"			value="Red" />
+   <property name="srch.fld.candidate.crrd"			value="ri" />
+   <property name="srch.lbl.candidate.crrd"			value="Corridor" />
+
+   <property name="srch.fld.bundle.ref"				value="rf" />
+   <property name="srch.lbl.bundle.ref"				value="Código" />
+   <property name="srch.fld.bundle.desc"			value="ds" />
+   <property name="srch.lbl.bundle.desc"			value="Descripción" />
+   <property name="srch.fld.bundle.cmnt"			value="cm" />
+   <property name="srch.lbl.bundle.cmnt"			value="Comentarios" />
+   <property name="srch.fld.bundle.cls"				value="tn" />
+   <property name="srch.lbl.bundle.cls"				value="Clase" />
+   <property name="srch.fld.bundle.clnt"			value="ln" />
+   <property name="srch.lbl.bundle.clnt"			value="Cliente" />
+   <property name="srch.fld.bundle.cntr"			value="cn" />
+   <property name="srch.lbl.bundle.cntr"			value="Contrato" />
+   <property name="srch.fld.bundle.slp"				value="sn" />
+   <property name="srch.lbl.bundle.slp"				value="Vertiente" />
+   <property name="srch.fld.bundle.lvl"				value="lvl" />
+   <property name="srch.lbl.bundle.lvl"				value="Nivel" />
+     
+   <property name="srch.fld.product.ref"			value="rf" />
+   <property name="srch.lbl.product.ref"			value="Código" />
+   <property name="srch.fld.product.desc"			value="ds" />
+   <property name="srch.lbl.product.desc"			value="Descripción" />
+   <property name="srch.fld.product.cmnt"			value="cm" />
+   <property name="srch.lbl.product.cmnt"			value="Comentarios" />
+   <property name="srch.fld.product.cls"			value="tn" />
+   <property name="srch.lbl.product.cls"			value="Clase" />
+   <property name="srch.fld.product.clnt"			value="ln" />
+   <property name="srch.lbl.product.clnt"			value="Cliente" />
+   <property name="srch.fld.product.cntr"			value="cn" />
+   <property name="srch.lbl.product.cntr"			value="Contrato" />
+   <property name="srch.fld.product.slp"			value="sn" />
+   <property name="srch.lbl.product.slp"			value="Vertiente" />
+   <property name="srch.fld.product.lvl"			value="lvl" />
+   <property name="srch.lbl.product.lvl"			value="Nivel" />
+   
+   <property name="srch.fld.etype.ref"				value="rf" />
+   <property name="srch.lbl.etype.ref"				value="Código" />
+   <property name="srch.fld.etype.desc"				value="ds" />
+   <property name="srch.lbl.etype.desc"				value="Descripción" />
+   
+   <property name="srch.fld.element.ref"			value="rf" />
+   <property name="srch.lbl.element.ref"			value="Código" />
+   <property name="srch.fld.element.desc"			value="ds" />
+   <property name="srch.lbl.element.desc"			value="Descripción" />
+
+   <property name="srch.fld.prepago.item.ref"		value="rf" />
+   <property name="srch.lbl.prepago.item.ref"		value="Código" />
+   <property name="srch.fld.prepago.item.desc"		value="ds" />
+   <property name="srch.lbl.prepago.item.desc"		value="Descripción" />
+
+   <property name="srch.fld.prepago.concept.ref"	value="rf" />
+   <property name="srch.lbl.prepago.concept.ref"	value="Código" />
+   <property name="srch.fld.prepago.concept.desc"	value="ds" />
+   <property name="srch.lbl.prepago.concept.desc"	value="Descripción" />
+   
+       <!-- todavia no hay SEARCH FIELDS MAPPINGS para calltype y prefix porque no está el combobox... -->
+   
+   
+   
+   
+   
+   <property name="srch.fld.prepago.calltype.yprd"		value="yprd" />
+   <property name="srch.lbl.prepago.calltype.yprd"		value="CallType" />
+   <property name="srch.fld.prepago.calltype.zprod"		value="zprod" />
+   <property name="srch.lbl.prepago.calltype.zprod"		value="Descripción" />
+
+   <property name="srch.fld.prepago.prefix.prpr"			value="prpr" />
+   <property name="srch.lbl.prepago.prefix.prpr"			value="Prefijo_PR" />
+   <property name="srch.fld.prepago.prefix.type"			value="type" />
+   <property name="srch.lbl.prepago.prefix.type"			value="Tipo" />
+   <property name="srch.fld.prepago.prefix.dstn"		value="dstn" />
+   <property name="srch.lbl.prepago.prefix.dstn"		value="Destino" />
+   <property name="srch.fld.prepago.prefix.yprd"		value="yprd" />
+   <property name="srch.lbl.prepago.prefix.yprd"		value="Y_Prod" />
+   <property name="srch.fld.prepago.prefix.zprd"		value="zprod" />
+   <property name="srch.lbl.prepago.prefix.zprd"		value="Z_Prod" />
+   <property name="srch.fld.prepago.prefix.vzvdtl"		value="vzvdtl" />
+   <property name="srch.lbl.prepago.prefix.vzvdtl"		value="Voz_Videotel" />
+   <property name="srch.fld.prepago.prefix.dscprd"		value="dscprd" />
+   <property name="srch.lbl.prepago.prefix.dscprd"		value="Desc_Producto" />
+   
+   
+   
+</config>

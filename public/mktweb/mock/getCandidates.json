@@ -1,0 +1,1109 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "996922",
+            "rf": "0",
+            "ds": "",
+            "lv": "SRV",
+            "ct": "USO",
+            "ci": "GSM",
+            "ni": "",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998242",
+            "rf": "10028",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999997",
+            "rf": "10028",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999996",
+            "rf": "10029",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999995",
+            "rf": "10030",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998240",
+            "rf": "10030",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998239",
+            "rf": "10031",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999994",
+            "rf": "10031",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998238",
+            "rf": "10032",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999993",
+            "rf": "10032",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999992",
+            "rf": "10033",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998237",
+            "rf": "10033",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998236",
+            "rf": "10034",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999991",
+            "rf": "10034",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999990",
+            "rf": "10037",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998235",
+            "rf": "10037",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999989",
+            "rf": "10039",
+            "ds": "",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GPRS",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999988",
+            "rf": "10041",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998234",
+            "rf": "10041",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999987",
+            "rf": "10042",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998233",
+            "rf": "10042",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998232",
+            "rf": "10043",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999986",
+            "rf": "10043",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998231",
+            "rf": "10044",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999985",
+            "rf": "10044",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998230",
+            "rf": "10045",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999984",
+            "rf": "10045",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999983",
+            "rf": "10046",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998229",
+            "rf": "10046",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998228",
+            "rf": "10047",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999982",
+            "rf": "10047",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998227",
+            "rf": "10048",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999981",
+            "rf": "10048",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999980",
+            "rf": "10049",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998226",
+            "rf": "10049",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999979",
+            "rf": "10050",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998225",
+            "rf": "10050",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999978",
+            "rf": "10051",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998224",
+            "rf": "10051",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999977",
+            "rf": "10052",
+            "ds": "",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999976",
+            "rf": "10054",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998223",
+            "rf": "10054",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999975",
+            "rf": "10056",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998222",
+            "rf": "10056",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998221",
+            "rf": "10057",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999974",
+            "rf": "10057",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998220",
+            "rf": "10058",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999973",
+            "rf": "10058",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999972",
+            "rf": "10060",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998219",
+            "rf": "10060",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999971",
+            "rf": "10061",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998218",
+            "rf": "10061",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "3100088",
+            "rf": "10061",
+            "ds": "",
+            "lv": "",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "3100345",
+            "rf": "10062",
+            "ds": "",
+            "lv": "",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998217",
+            "rf": "10062",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999970",
+            "rf": "10062",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999969",
+            "rf": "10065",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998216",
+            "rf": "10065",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998215",
+            "rf": "10066",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999968",
+            "rf": "10066",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999967",
+            "rf": "10067",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998214",
+            "rf": "10067",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999966",
+            "rf": "10070",
+            "ds": "",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GPRS",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998213",
+            "rf": "10091",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999965",
+            "rf": "10091",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999964",
+            "rf": "10092",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998212",
+            "rf": "10092",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998211",
+            "rf": "10093",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999963",
+            "rf": "10093",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998210",
+            "rf": "10094",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999962",
+            "rf": "10094",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998209",
+            "rf": "10095",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999961",
+            "rf": "10095",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999960",
+            "rf": "10096",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998208",
+            "rf": "10096",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999959",
+            "rf": "10097",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998207",
+            "rf": "10097",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998206",
+            "rf": "10098",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999958",
+            "rf": "10098",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998205",
+            "rf": "10099",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999957",
+            "rf": "10099",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999956",
+            "rf": "10100",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998204",
+            "rf": "10100",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998203",
+            "rf": "10101",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999955",
+            "rf": "10101",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999954",
+            "rf": "10102",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998202",
+            "rf": "10102",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998201",
+            "rf": "10103",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999953",
+            "rf": "10103",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "999952",
+            "rf": "10104",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "998200",
+            "rf": "10104",
+            "ds": "",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0"
+          }
+        }
+      ]
+    }
+  }
+}

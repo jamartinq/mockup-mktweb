@@ -1,0 +1,33 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "100",
+            "rf": "CTA",
+            "pc": "1470",
+            "bc": "2826"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "200",
+            "rf": "SRV",
+            "pc": "3072",
+            "bc": "1848"
+          }
+        }
+      ]
+    }
+  }
+}

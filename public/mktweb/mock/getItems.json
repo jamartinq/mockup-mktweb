@@ -1,0 +1,1007 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "service": {
+    "_attributes": {
+      "status": "0"
+    },
+    "dataset": {
+      "elm": [
+        {
+          "_attributes": {
+            "id": "16300001",
+            "rf": "00",
+            "ds": "INC000018256337",
+            "lv": "",
+            "ct": "",
+            "ci": "",
+            "ni": "",
+            "ri": "",
+            "ti": "2000051",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Cargos No Periódicos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "16100001",
+            "rf": "000022",
+            "ds": "E2E TC07",
+            "lv": "CTA",
+            "ct": "CNPER",
+            "ci": "ENT",
+            "ni": "0",
+            "ri": "0",
+            "ti": "1000001",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "16400001",
+            "rf": "000033",
+            "ds": "E2E TC06",
+            "lv": "",
+            "ct": "CNPER",
+            "ci": "",
+            "ni": "",
+            "ri": "",
+            "ti": "",
+            "tn": "",
+            "sn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "16000001",
+            "rf": "000342",
+            "ds": "E2E TC03",
+            "lv": "",
+            "ct": "OCC",
+            "ci": "",
+            "ni": "",
+            "ri": "",
+            "ti": "",
+            "tn": "",
+            "sn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "16200001",
+            "rf": "002711",
+            "ds": "TEST E2E TC07",
+            "lv": "CTA",
+            "ct": "CNPER",
+            "ci": "ENT",
+            "ni": "1",
+            "ri": "10",
+            "ti": "2000001",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Cargos Periódicos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "16300002",
+            "rf": "1",
+            "ds": "INC000018256337",
+            "lv": "SRV",
+            "ct": "",
+            "ci": "",
+            "ni": "",
+            "ri": "",
+            "ti": "",
+            "tn": "",
+            "sn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000002",
+            "rf": "10027",
+            "ds": "DRFC3.  Descto Tarifa Plana Roaming Datos BMESR",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "16000005",
+            "rf": "10027",
+            "ds": "Prueba",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000020",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Cargos Periódicos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000003",
+            "rf": "10028",
+            "ds": "CLR15 - Dto. Corp. 15% Roaming voz realizado",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "16000003",
+            "rf": "10028",
+            "ds": "prueba",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000051",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Cargos No Periódicos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "16200002",
+            "rf": "10028",
+            "ds": "prueba",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "",
+            "tn": "",
+            "sn": ""
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000004",
+            "rf": "10029",
+            "ds": "CLR25 - Dto. Corp. 25% Roaming voz realizado",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "16000004",
+            "rf": "10029",
+            "ds": "prueba",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000081",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "Cargos4G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000005",
+            "rf": "10030",
+            "ds": "CLR35 - Dto. Corp. 35% Roaming voz realizado",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000006",
+            "rf": "10031",
+            "ds": "CLR45 - Dto. Corp. 45% Roaming voz realizado",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000007",
+            "rf": "10032",
+            "ds": "CLR50 - Dto. Corp. 50% Roaming voz realizado",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000008",
+            "rf": "10033",
+            "ds": "DPC00 - Dto. 100% Cuota Mensual Business Platinum",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000009",
+            "rf": "10034",
+            "ds": "DWO75.  Dto. 75% cuota mensual Vodafone Fijo",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000010",
+            "rf": "10036",
+            "ds": "Dto.Franquicia Corporate MensaRed",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000023",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos 2G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000011",
+            "rf": "10037",
+            "ds": "Dto.Franquicia Corporate MensaRed",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000023",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos 2G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000012",
+            "rf": "10040",
+            "ds": "DJ060.  Descuento cuota MJ060 3_",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000013",
+            "rf": "10041",
+            "ds": "DBE20.Dto. Cuota BB Empresa a 20E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000014",
+            "rf": "10042",
+            "ds": "DBE17.Dto. Cuota BB Empresa a 17,50E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000015",
+            "rf": "10043",
+            "ds": "DBE15.Dto. Cuota BB Empresa a 15E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000016",
+            "rf": "10044",
+            "ds": "DBE12.Dto. Cuota BB Empresa a 12,50E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000017",
+            "rf": "10045",
+            "ds": "DCP17.Dto. Cuota BB y RM Profesional a 17,50E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000018",
+            "rf": "10046",
+            "ds": "DCP15.Dto. Cuota BB y RM Profesional a 15E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000019",
+            "rf": "10047",
+            "ds": "DCP12.Dto. Cuota BB y RM Profesional a 12,50E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000020",
+            "rf": "10048",
+            "ds": "DCE20.Dto. Cuota RM Emp y Windows Mobile a 20E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000021",
+            "rf": "10049",
+            "ds": "DCE17.Dto. Cuota RM Emp y Windows Mobile a 17,50E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000022",
+            "rf": "10050",
+            "ds": "DCE15.Dto. Cuota RM Emp y Windows Mobile a 15E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000023",
+            "rf": "10051",
+            "ds": "DCE12.Dto. Cuota RM Emp y Windows Mobile a 12,50E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000024",
+            "rf": "10053",
+            "ds": "DMP10 - 10 _ descuento mensual llam Mi pais",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000025",
+            "rf": "10054",
+            "ds": "DRD50. Dscto roaming datos 50%",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000026",
+            "rf": "10056",
+            "ds": "DRO60- Dto. 60% Llamadas Realizadas en Roaming",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000027",
+            "rf": "10057",
+            "ds": "DBE25.Dto. Cuota DTBES a 25E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000028",
+            "rf": "10058",
+            "ds": "DCP18.Dto. Cuotas DTBWC y RMPRO a 18E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000029",
+            "rf": "10059",
+            "ds": "DCE22.Dto. Cuotas RMENT y DTWEN a 22E",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000030",
+            "rf": "10060",
+            "ds": "DPC80 - Dto. Platinum. 80% Cuota Platinum",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000031",
+            "rf": "10065",
+            "ds": "DSMUZ. Dto. 33% cuotas Multitarjeta y Nexus",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000032",
+            "rf": "10066",
+            "ds": "DCAM2. Dto. 50% Cuota alta Multitarjeta",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000033",
+            "rf": "10067",
+            "ds": "DCP10. Dto. 44,44% Cuota Real Mail y  BlackBerry Profesional",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000034",
+            "rf": "10068",
+            "ds": "DSWP1. 10% consumo Multimensaje Empresa",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000023",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos 2G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000035",
+            "rf": "10071",
+            "ds": "DSMIN - Dto. minutos Renove PABX",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000036",
+            "rf": "10072",
+            "ds": "DTMRL - Dto cuota MRLocalizaci¢n",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000023",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos 2G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000037",
+            "rf": "10088",
+            "ds": "ARC50.Dto. 50% Uso AR Corporate",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000038",
+            "rf": "10090",
+            "ds": "DSPOR.Dto. 13ï7 _ Portabilidad Fija",
+            "lv": "SRV",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000022",
+            "tn": "Detalle Facturación Neta GSM",
+            "sn": "GSM Descuentos Voz"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000039",
+            "rf": "10091",
+            "ds": "C23IL - Dto. Corp. 23,08% Cuota  Plan TPILI",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000040",
+            "rf": "10092",
+            "ds": "C33IP - Dto. Corp. 33,9% Cuota  Plan ILIPR",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000041",
+            "rf": "10093",
+            "ds": "C20ML - Dto. Corp. 20% Cuota  Plan MLT25",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000042",
+            "rf": "10094",
+            "ds": "C303G - Dto. Corp. 30,07% Cuota  Plan TPL3G",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000017",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos 2,5G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000043",
+            "rf": "10095",
+            "ds": "C38GP - Dto. Corp. 38,98% Cuota  Plan TP3GP",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000017",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos 2,5G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000044",
+            "rf": "10096",
+            "ds": "C30IL - Dto. Corp. 30,07% Cuota  Plan TPILI",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000045",
+            "rf": "10097",
+            "ds": "C38IP - Dto. Corp. 38,98% Cuota  Plan ILIPR",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000046",
+            "rf": "10098",
+            "ds": "C08MC - Dto. Corp. 8% Cuota  Plan MLC25",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000017",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos 2,5G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000047",
+            "rf": "10099",
+            "ds": "C07C3 - Dto. Corp. 7,69% Cuota  Plan TPC3G",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000017",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos 2,5G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000048",
+            "rf": "10100",
+            "ds": "C32ML - Dto. Corp. 32% Cuota  Plan MLT25",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000049",
+            "rf": "10101",
+            "ds": "C383G - Dto. Corp. 38,46% Cuota  Plan TPL3G",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000017",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos 2,5G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000050",
+            "rf": "10102",
+            "ds": "C44GP - Dto. Corp. 44,06% Cuota  Plan TP3GP",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000017",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos 2,5G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000051",
+            "rf": "10103",
+            "ds": "C38IL - Dto. Corp. 38,46% Cuota  Plan TPILI",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000052",
+            "rf": "10104",
+            "ds": "C44IP - Dto. Corp. 44,06% Cuota  Plan ILIPR",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000053",
+            "rf": "10105",
+            "ds": "C20MC - Dto. Corp. 20% Cuota  Plan MLC25",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000017",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos 2,5G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000054",
+            "rf": "10106",
+            "ds": "C15C3 - Dto. Corp. 15,38% Cuota  Plan TPC3G",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000017",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos 2,5G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000055",
+            "rf": "10107",
+            "ds": "C483G - Dto. Corp. 48,71% Cuota  Plan TPL3G",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000017",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos 2,5G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000056",
+            "rf": "10108",
+            "ds": "C49GP - Dto. Corp. 49,15% Cuota  Plan TP3GP",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000017",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos 2,5G"
+          }
+        },
+        {
+          "_attributes": {
+            "id": "2000057",
+            "rf": "10109",
+            "ds": "C48IL - Dto. Corp. 48,71% Cuota  Plan TPILI",
+            "lv": "CTA",
+            "ct": "DESC",
+            "ci": "GSM",
+            "ni": "0",
+            "ri": "0",
+            "ti": "2000003",
+            "tn": "Detalle Facturación Neta GPRS",
+            "sn": "GPRS Descuentos"
+          }
+        }
+      ]
+    }
+  }
+}
